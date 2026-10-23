@@ -1,0 +1,41 @@
+{
+  "cell": {
+    "id": "MiniGridLoCA_neural_AWAC",
+    "family": "MiniGridLoCA",
+    "reference": "neural",
+    "backbone": "AWAC",
+    "updates": 4096,
+    "seeds": [
+      3320332001,
+      1910484143,
+      3873505733,
+      4037057317,
+      426415249,
+      3805455119,
+      4107211778,
+      1498857997,
+      1594906665,
+      1288882528,
+      2911945895,
+      1955645328,
+      94735229,
+      1366312394,
+      3145322830,
+      3126104658,
+      3170319455,
+      3295539396,
+      3090407472,
+      3199264634
+    ]
+  },
+  "seed": 1366312394,
+  "recipe": {
+    "id": "TD_G1",
+    "method": "TD",
+    "gain": 1
+  },
+  "common_initial_sha256": "44f251955cce89dd3ab7e51851d3d439694e62f2981e0445e498b062292e69db",
+  "common_models_optimizers_rng_bitwise_matched": true,
+  "schedule_sha256": "56b3374d98fb201683b2419ecd668b832dd05aa640715c2241ab26fab83cff31",
+  "evidence": "development: all included seeds predate and informed method/hyperparameter selection"
+}

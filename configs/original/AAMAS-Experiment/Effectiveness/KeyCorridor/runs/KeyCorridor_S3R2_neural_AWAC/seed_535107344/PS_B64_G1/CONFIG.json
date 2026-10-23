@@ -1,0 +1,43 @@
+{
+  "cell": {
+    "id": "KeyCorridor_S3R2_neural_AWAC",
+    "family": "KeyCorridor",
+    "task": "S3R2",
+    "reference": "neural",
+    "backbone": "AWAC",
+    "updates": 512,
+    "seeds": [
+      1159400137,
+      1633377301,
+      1477407488,
+      1203554635,
+      1010198544,
+      483246858,
+      1164236245,
+      2020117520,
+      797589853,
+      1353501321,
+      840619686,
+      2061405043,
+      1434640801,
+      1839624056,
+      1843450548,
+      973905721,
+      535107344,
+      58161002,
+      1398739626,
+      573035195
+    ]
+  },
+  "seed": 535107344,
+  "recipe": {
+    "id": "PS_B64_G1",
+    "method": "PS",
+    "backups": 64,
+    "gain": 1
+  },
+  "common_initial_sha256": "367e7075854138f0e328037802b3fc4d09dc62ce30561058deab9699e7f6a739",
+  "common_models_optimizers_rng_bitwise_matched": true,
+  "schedule_sha256": "cfda2c313fb96d565e97eb7d70f287f3636c5325c1e163cce70a1bd57e149505",
+  "evidence": "development: all included seeds predate and informed method/hyperparameter selection"
+}

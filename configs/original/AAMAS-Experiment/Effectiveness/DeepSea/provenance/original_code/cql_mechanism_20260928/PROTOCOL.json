@@ -1,0 +1,127 @@
+{
+  "status": "FROZEN_BEFORE_NEW_CONTRAST_OUTCOMES",
+  "question": "Does actor objective or timeliness of value readout explain the DeepSea gap to native CQL?",
+  "main_contrast": [
+    "LIVE_SAC",
+    "LIVE_AWAC",
+    "PDR_SAC_A1_B1",
+    "PDR_AWAC_A1_B1"
+  ],
+  "development_seeds": {
+    "DeepSea_N10_exact_AWAC": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ],
+    "DeepSea_N20_exact_AWAC": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ],
+    "DeepSea_N30_exact_AWAC": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ]
+  },
+  "heldout_seeds": {
+    "DeepSea_N10_exact_AWAC": [
+      1746562410,
+      697213970,
+      1049202216,
+      1879683417,
+      345375013,
+      1199701853,
+      1696667390,
+      630094888,
+      1405763640,
+      1580538728,
+      610034613,
+      273531614,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      81607656,
+      187243630
+    ],
+    "DeepSea_N20_exact_AWAC": [
+      1746562410,
+      697213970,
+      1049202216,
+      1879683417,
+      345375013,
+      1199701853,
+      1696667390,
+      630094888,
+      1405763640,
+      1580538728,
+      610034613,
+      273531614,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      81607656,
+      187243630
+    ],
+    "DeepSea_N30_exact_AWAC": [
+      1746562410,
+      697213970,
+      1049202216,
+      1879683417,
+      345375013,
+      1199701853,
+      1696667390,
+      630094888,
+      1405763640,
+      1580538728,
+      610034613,
+      273531614,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      81607656,
+      187243630
+    ]
+  },
+  "primary": "Normalized trapezoidal mean expected return over 0..2048 updates; full continuation 8192.",
+  "coefficients": {
+    "alpha": [
+      0,
+      1,
+      4,
+      8
+    ],
+    "beta": [
+      1,
+      8,
+      32
+    ]
+  },
+  "selection": "Best across-development-seed early mean among the 24 PDR actor/coefficient configurations, separately per N. Ties by condition id. Freeze winner before heldout runs; no heldout retuning.",
+  "control": "Native discrete SAC-CQL with previously selected per-size conservatism/entropy, unchanged actor/critic learning rates, replay schedules, full support, initial model/optimizer/RNG state and evaluation.",
+  "crossed_critic": "Every branch uses identical CQL critic loss/update rule and twin-head initialization. Trajectories can then diverge through current-policy targets.",
+  "pdr": "Full exact soft-policy differential at fixed CQL entropy; same current-policy soft evaluation operator as CQL target. Fixed exact soft Qold from initial policy. Actor value alpha*Qold + beta*D; centers to alpha*Aref + beta*DeltaA.",
+  "semantics": "PDR-SAC is an extension to a different actor backbone, explicitly labelled. It is not a renamed AWAC checkpoint or a claim that critic objectives are unchanged from historical OURS.",
+  "inference": "Original seeds are development data; new paired 20-seed validation uses only eligible predeclared starts with failures retained. No seed selection by OURS performance.",
+  "checkpoints": "Complete initial/final models, targets, optimizers and RNG; exact input hashes and schedules.",
+  "execution": {
+    "gpus": 8,
+    "workers_per_gpu": 1,
+    "shares_gpus_with": "OURS50 extension"
+  }
+}

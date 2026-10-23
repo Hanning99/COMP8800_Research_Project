@@ -1,0 +1,41 @@
+{
+  "cell": {
+    "id": "MiniGridLoCA_neural_SAC",
+    "family": "MiniGridLoCA",
+    "reference": "neural",
+    "backbone": "SAC",
+    "updates": 4096,
+    "seeds": [
+      3320332001,
+      1910484143,
+      3873505733,
+      4037057317,
+      426415249,
+      3805455119,
+      4107211778,
+      1498857997,
+      1594906665,
+      1288882528,
+      2911945895,
+      1955645328,
+      94735229,
+      1366312394,
+      3145322830,
+      3126104658,
+      3170319455,
+      3295539396,
+      3090407472,
+      3199264634
+    ]
+  },
+  "seed": 1955645328,
+  "recipe": {
+    "id": "TD_G8",
+    "method": "TD",
+    "gain": 8
+  },
+  "common_initial_sha256": "54ef3a6d6900c692240add500ab1fa6bdd5e01e2bf47259b1e00586c3dadc821",
+  "common_models_optimizers_rng_bitwise_matched": true,
+  "schedule_sha256": "de1858e2c81b75585c5f1a67389701743f9b0f7a6f2c12d34f9862bf9eff51b1",
+  "evidence": "development: all included seeds predate and informed method/hyperparameter selection"
+}

@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-01T14:37:01.669055+00:00",
+  "purpose": "Strengthen the existing discrete SAC-CQL baseline in all eight KeyCorridor cells.",
+  "algorithm": "Unchanged BaselineLearner CQL step: twin scalar critics, masked exact categorical soft backup, logsumexp supported-action conservative penalty, maximum-entropy actor, Polyak tau .005, gradient clipping5. No behavior-cloning warmup or PDR values.",
+  "search": "78 fixed configurations. 5 predetermined development seeds per cell to512. Promote union of top2 full mean, top1 early mean, top1 final, and original plotted recipe; expand each to all20 original paired seeds.",
+  "selection": "Highest all20 mean normalized trapezoidal success over updates0..512; tie break early mean then final then configuration ID. Also report early mean0..128 and final512. All development seeds, no seed filtering. Conditional bootstrap intervals do not adjust for tuning.",
+  "preserved": "Original graph, fixed reference, actor/critic initial parameters, optimizer moments and step counts, RNG and512 replay batches. Only declared actor/critic learning rates and CQL/entropy coefficients vary. All action masks, rewards and budgets unchanged.",
+  "initialization": "Verify complete common initialization and schedule hash against archived baseline. Copy the native CQL full initial state; change only recipe and optimizer learning-rate fields for each branch. Restore before every configuration.",
+  "engineering": "Supported-action CQL gradient and masked softmax checks; complete-state serialization/resume; old plotted configuration full512 reproduction for one predetermined seed per cell before screen. Verify old recipe on all20 after expansion.",
+  "storage": "Full native checkpoints at0,128,512 including models, targets, optimizers and RNG. No parameter-only replacement. Pause after saving if free space below10GiB.",
+  "timing": "Synchronized training blocks exclude evaluation, diagnostic reads and checkpoint IO. Parallel tuning timings are not dedicated runtime benchmarks.",
+  "resources": "Eight GPUs, one resident worker perGPU; short configuration chunks for balanced scheduling.",
+  "source_reference": "S5R3 neural uses the already user-accepted fixed anchor, unchanged.",
+  "reporting": "Keep old main figures intact until completed comparison is verified; generate tuning before/after figures in this directory."
+}

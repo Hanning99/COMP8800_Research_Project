@@ -1,0 +1,42 @@
+{
+  "cell": {
+    "id": "KeyCorridor_S4R3_neural_AWAC",
+    "family": "KeyCorridor",
+    "task": "S4R3",
+    "reference": "neural",
+    "backbone": "AWAC",
+    "updates": 512,
+    "seeds": [
+      1109647911,
+      1818126744,
+      226573144,
+      1408573782,
+      1544659686,
+      2136098831,
+      2061986419,
+      631784293,
+      1798525483,
+      1731789875,
+      607907421,
+      1970429982,
+      1358272120,
+      1005168012,
+      969999095,
+      9921966,
+      1004141064,
+      1258846108,
+      331674628,
+      1669744637
+    ]
+  },
+  "seed": 9921966,
+  "recipe": {
+    "id": "PER_G1",
+    "method": "PER",
+    "gain": 1
+  },
+  "common_initial_sha256": "7c27c3f3f2114fc3ce21812bc728956fcdad80a8f7305759ed83ef8bbbb16997",
+  "common_models_optimizers_rng_bitwise_matched": true,
+  "schedule_sha256": "c8c3e8349eeb3256d470af853f82c8c1b78a64bfc331b31546ae40ceb8ce7599",
+  "evidence": "development: all included seeds predate and informed method/hyperparameter selection"
+}

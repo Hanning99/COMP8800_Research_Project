@@ -1,0 +1,68 @@
+{
+  "cell": {
+    "id": "DeepSea_N10_exact_AWAC",
+    "family": "DeepSea",
+    "N": 10,
+    "reference": "exact",
+    "backbone": "AWAC",
+    "updates": 8192,
+    "seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370,
+      897925774,
+      1482992932,
+      704396142,
+      455479392,
+      437841576
+    ],
+    "validation_seeds": [
+      1746562410,
+      697213970,
+      1049202216,
+      1879683417,
+      345375013,
+      1199701853,
+      1696667390,
+      630094888,
+      1405763640,
+      1580538728,
+      610034613,
+      273531614,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      81607656,
+      187243630
+    ],
+    "preview_seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ]
+  },
+  "seed": 790831345,
+  "recipe": {
+    "id": "DISCOR_G8",
+    "method": "DISCOR",
+    "gain": 8
+  },
+  "initial_source": "/data3/hanning/sota/ours_50seeds_20260928/new/DeepSea_N10_exact_AWAC/seed_790831345/OURS/INITIAL.pt",
+  "initial_source_sha256": "2282fbe807460288ccafb959a0437809f74e555c07e02ba7ca54ceb9d0f4e4aa",
+  "schedule_sha256": "938502c1ca3e97829c1cd8b8f65a434e74ce90f8728cb3a5744bd2e11c9f9fae",
+  "inputs": {
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N10/seed_790831345/COMMON_START.pt": "d306ba2e77f9412f220958450959701d4f076b6ae630439b429bcc34d34e9bf7",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N10/seed_790831345/graph.npz": "a157bcfe201b11ce1b0abd0cadb2586ba396cd7349fa2d404b29eb8864f22e20",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N10/seed_790831345/schedule.npz": "9df00efddfa03760ca22a46c0f06e3bb1672ee9969702a9112d832a525ab802c",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N10/seed_790831345/historical_rows.parquet": "aa5c37bed654c58366f9ee1d6cd4cab3a5b3cdadfcbc4f449d69e8385a3138e8",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N10/seed_790831345/support_rows.parquet": "336924e0aaeca225e105362808ce25f513fac86420837b05b0de30dd4ddb2ff3"
+  },
+  "common_initial_bitwise_matched": true
+}

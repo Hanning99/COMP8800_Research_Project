@@ -1,0 +1,41 @@
+{
+  "cell": {
+    "id": "MiniGridLoCA_neural_EXPECTED_SARSA_QAC",
+    "family": "MiniGridLoCA",
+    "reference": "neural",
+    "backbone": "EXPECTED_SARSA_QAC",
+    "updates": 4096,
+    "seeds": [
+      3320332001,
+      1910484143,
+      3873505733,
+      4037057317,
+      426415249,
+      3805455119,
+      4107211778,
+      1498857997,
+      1594906665,
+      1288882528,
+      2911945895,
+      1955645328,
+      94735229,
+      1366312394,
+      3145322830,
+      3126104658,
+      3170319455,
+      3295539396,
+      3090407472,
+      3199264634
+    ]
+  },
+  "seed": 94735229,
+  "recipe": {
+    "id": "DISCOR_G1",
+    "method": "DISCOR",
+    "gain": 1
+  },
+  "common_initial_sha256": "7097f16cb4adaf2f9fdc562f03df131baf2ba7b6d4aef1b2c7b786e9b360ff83",
+  "common_models_optimizers_rng_bitwise_matched": true,
+  "schedule_sha256": "e23274bc3f17b4dc103e39f9afbf13f0459a8744fced47e59ced1c5d34c07a0b",
+  "evidence": "development: all included seeds predate and informed method/hyperparameter selection"
+}

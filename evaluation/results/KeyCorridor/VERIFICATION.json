@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "raw_curves": 640,
+  "tasks": 4,
+  "methods": 8,
+  "seeds_per_setting": 20,
+  "archived_statistics_max_abs_error": {
+    "mean": 1.1102230246251565e-16,
+    "ci_low": 1.1102230246251565e-16,
+    "ci_high": 1.1102230246251565e-16
+  },
+  "bootstrap": {
+    "seed": 20260925,
+    "resamples": 10000,
+    "type": "paired seed percentile"
+  },
+  "intervals": "Across-seed variation, not corrected for development selection",
+  "early": "trapezoidal AUC [0,128]/128",
+  "full": "trapezoidal AUC [0,512]/512",
+  "final": "success at update 512"
+}

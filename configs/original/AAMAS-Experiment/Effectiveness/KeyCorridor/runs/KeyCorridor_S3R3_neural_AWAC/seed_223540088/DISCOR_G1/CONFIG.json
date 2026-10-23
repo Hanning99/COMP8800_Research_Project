@@ -1,0 +1,42 @@
+{
+  "cell": {
+    "id": "KeyCorridor_S3R3_neural_AWAC",
+    "family": "KeyCorridor",
+    "task": "S3R3",
+    "reference": "neural",
+    "backbone": "AWAC",
+    "updates": 512,
+    "seeds": [
+      766272138,
+      1182760846,
+      2109725758,
+      2057005445,
+      1112204861,
+      577294871,
+      70819706,
+      1050478514,
+      2088151431,
+      955743532,
+      1467573690,
+      482832062,
+      268899647,
+      1564583393,
+      1961138478,
+      2089147965,
+      223540088,
+      1201695725,
+      1520947634,
+      680905932
+    ]
+  },
+  "seed": 223540088,
+  "recipe": {
+    "id": "DISCOR_G1",
+    "method": "DISCOR",
+    "gain": 1
+  },
+  "common_initial_sha256": "7b562040ddee26aa7f64c2a1a24e1c5d1096ab3ede349adba913d04dc14f6d91",
+  "common_models_optimizers_rng_bitwise_matched": true,
+  "schedule_sha256": "0905891a8e0111773965f664fdad3c1a91fde79ca33f1819464cf9c01ae47ff0",
+  "evidence": "development: all included seeds predate and informed method/hyperparameter selection"
+}

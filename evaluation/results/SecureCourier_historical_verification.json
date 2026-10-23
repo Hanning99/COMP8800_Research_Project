@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "destination": "/data3/hanning/AAMAS-Experiment/Effectiveness/SecureCourier",
+  "files": 53031,
+  "bytes": 19120342198,
+  "all_destination_hashes_match": true
+}

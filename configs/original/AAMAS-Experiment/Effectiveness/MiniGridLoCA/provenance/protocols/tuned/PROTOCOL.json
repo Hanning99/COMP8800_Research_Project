@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-02T05:15:18.684303+00:00",
+  "purpose": "Tune both CQL and IQL on all6 existing MiniGridLoCA continuation cells.",
+  "latest_user_instruction": "\u7b49\u7b49\uff0c\u4e24\u4e2a\u90fd\u8981\u6551",
+  "algorithms": {
+    "CQL": "Existing discrete SAC-CQL with categorical soft backup and supported-action logsumexp penalty; unchanged baseline step.",
+    "IQL": "Existing target-Q expectile V, capped exponential advantage weighted categorical policy, Q regression to Task-B reward plus V, target update. Existing residual V parametrization retained."
+  },
+  "configs": {
+    "CQL": 60,
+    "IQL": 56
+  },
+  "search": "Each fixed configuration runs to4096 on3 predetermined development seeds in everycell. Promote peralgorithm/cell union of top2 full-mean, top1 early-mean, top1 final and old plotted configuration; expand to all20 original paired seeds.",
+  "selection": "Highest all20 mean normalized trapezoidal Task-B discounted return0..4096, tie early then final thenID. Same chosen configuration supplies all windows. Keep full candidate results; no ceiling relative to other methods; no seed filtering.",
+  "preserved": "Fixed graphs, references, actor/critic initial parameters and optimizer moments, schedules, reward labels, batch128, gamma.99, evaluation grid, actor update count4096. Only recorded hyperparameters vary. No additional critic updates, altered data, BC warm-up or PDR value inputs.",
+  "reward": "Every sampled record uses graph.reward_b. T1 reward4->1; T2 remains2. Old transition records receive current Task-B labels through the fixed table. No old reward in baseline targets.",
+  "metrics": "Exact evaluator from original code: mean100-step discounted Task-B return over nonterminal states; T1/T2 arrivals supplementary. Early normalized trapezoidal mean0..1024, full0..4096, final4096.",
+  "initialization": "Verify common full initial state and schedule/input hashes against archive; restore full native algorithm initialization before each configuration; change optimizer LR fields and target tau only as declared.",
+  "engineering": "Full4096 old-config reproduction for one predetermined seed percell/method. IQL expectile and capped-weight gradient checks; CQL penalty algebra. Exact reward labels, serialization/restore equality and diagnostic invariance.",
+  "checkpoints": "Complete native initialization,1024 and4096 checkpoints: model/target/optimizer/RNG plus recipe; no parameter-only substitutes. Saveprogress and stop under16GiB reserve.",
+  "parallelism": "Up to24 workers on8GPUs (3 perGPU), balanced bounded recipe chunks. All floating-point/determinism settings inherited.",
+  "bootstrap": {
+    "seed": 20260925,
+    "repetitions": 10000,
+    "type": "paired percentile bootstrap conditional on selected configuration"
+  },
+  "scope": "All seeds are development seeds. Tuning outputs remain separate until reviewed; current main figures unchanged."
+}

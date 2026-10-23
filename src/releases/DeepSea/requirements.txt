@@ -1,0 +1,12 @@
+# Install torch from the cu121 distribution first; validated with Python 3.10.
+torch==2.5.1
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+pyarrow==25.0.1
+threadpoolctl==3.6.0
+bsuite==0.3.6
+dm-env==1.6
+dm-tree==0.1.10
+absl-py==2.5.0

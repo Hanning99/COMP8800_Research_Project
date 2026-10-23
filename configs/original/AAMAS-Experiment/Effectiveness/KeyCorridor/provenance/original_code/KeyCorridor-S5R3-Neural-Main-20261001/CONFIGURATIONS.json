@@ -1,0 +1,542 @@
+[
+  {
+    "id": "A0_B0",
+    "alpha": 0,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B0p125",
+    "alpha": 0,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B0p25",
+    "alpha": 0,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B0p5",
+    "alpha": 0,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B1",
+    "alpha": 0,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B2",
+    "alpha": 0,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B4",
+    "alpha": 0,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B8",
+    "alpha": 0,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B16",
+    "alpha": 0,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0_B32",
+    "alpha": 0,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B0",
+    "alpha": 0.125,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B0p125",
+    "alpha": 0.125,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B0p25",
+    "alpha": 0.125,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B0p5",
+    "alpha": 0.125,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B1",
+    "alpha": 0.125,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B2",
+    "alpha": 0.125,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B4",
+    "alpha": 0.125,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B8",
+    "alpha": 0.125,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B16",
+    "alpha": 0.125,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p125_B32",
+    "alpha": 0.125,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B0",
+    "alpha": 0.25,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B0p125",
+    "alpha": 0.25,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B0p25",
+    "alpha": 0.25,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B0p5",
+    "alpha": 0.25,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B1",
+    "alpha": 0.25,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B2",
+    "alpha": 0.25,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B4",
+    "alpha": 0.25,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B8",
+    "alpha": 0.25,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B16",
+    "alpha": 0.25,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p25_B32",
+    "alpha": 0.25,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B0",
+    "alpha": 0.5,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B0p125",
+    "alpha": 0.5,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B0p25",
+    "alpha": 0.5,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B0p5",
+    "alpha": 0.5,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B1",
+    "alpha": 0.5,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B2",
+    "alpha": 0.5,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B4",
+    "alpha": 0.5,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B8",
+    "alpha": 0.5,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B16",
+    "alpha": 0.5,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A0p5_B32",
+    "alpha": 0.5,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B0",
+    "alpha": 1,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B0p125",
+    "alpha": 1,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B0p25",
+    "alpha": 1,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B0p5",
+    "alpha": 1,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B1",
+    "alpha": 1,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B2",
+    "alpha": 1,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B4",
+    "alpha": 1,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B8",
+    "alpha": 1,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B16",
+    "alpha": 1,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A1_B32",
+    "alpha": 1,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B0",
+    "alpha": 2,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B0p125",
+    "alpha": 2,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B0p25",
+    "alpha": 2,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B0p5",
+    "alpha": 2,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B1",
+    "alpha": 2,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B2",
+    "alpha": 2,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B4",
+    "alpha": 2,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B8",
+    "alpha": 2,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B16",
+    "alpha": 2,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A2_B32",
+    "alpha": 2,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B0",
+    "alpha": 4,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B0p125",
+    "alpha": 4,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B0p25",
+    "alpha": 4,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B0p5",
+    "alpha": 4,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B1",
+    "alpha": 4,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B2",
+    "alpha": 4,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B4",
+    "alpha": 4,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B8",
+    "alpha": 4,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B16",
+    "alpha": 4,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A4_B32",
+    "alpha": 4,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B0",
+    "alpha": 8,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B0p125",
+    "alpha": 8,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B0p25",
+    "alpha": 8,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B0p5",
+    "alpha": 8,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B1",
+    "alpha": 8,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B2",
+    "alpha": 8,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B4",
+    "alpha": 8,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B8",
+    "alpha": 8,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B16",
+    "alpha": 8,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A8_B32",
+    "alpha": 8,
+    "beta": 32,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B0",
+    "alpha": 16,
+    "beta": 0,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B0p125",
+    "alpha": 16,
+    "beta": 0.125,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B0p25",
+    "alpha": 16,
+    "beta": 0.25,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B0p5",
+    "alpha": 16,
+    "beta": 0.5,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B1",
+    "alpha": 16,
+    "beta": 1,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B2",
+    "alpha": 16,
+    "beta": 2,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B4",
+    "alpha": 16,
+    "beta": 4,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B8",
+    "alpha": 16,
+    "beta": 8,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B16",
+    "alpha": 16,
+    "beta": 16,
+    "temperature": 0.3
+  },
+  {
+    "id": "A16_B32",
+    "alpha": 16,
+    "beta": 32,
+    "temperature": 0.3
+  }
+]

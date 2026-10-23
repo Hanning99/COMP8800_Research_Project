@@ -1,0 +1,2053 @@
+[
+  {
+    "kind": "figure",
+    "number": "1.1",
+    "printed_page": 2,
+    "pdf_page": 10,
+    "caption": "The argument of the thesis",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "figures/ch01/capability-choice-overview.tex",
+    "labels": [
+      "fig:capability_choice_overview"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.1",
+    "printed_page": 13,
+    "pdf_page": 21,
+    "caption": "The two routes in SecureCourier",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "01_securecourier_capability"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_routes"
+    ],
+    "assets": [
+      "figures/ch04/securecourier-scenes/junction.png"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.2",
+    "printed_page": 14,
+    "pdf_page": 22,
+    "caption": "Gate success and shortcut probability after gate practice",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "01_securecourier_capability"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_capability_choice_results"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/capability-and-route-choice.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.3",
+    "printed_page": 15,
+    "pdf_page": 23,
+    "caption": "Exact junction returns before and after gate practice",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "01_securecourier_capability"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_exact_route_returns"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/exact-route-returns-before-after.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.4",
+    "printed_page": 16,
+    "pdf_page": 24,
+    "caption": "Two journeys after the same 22 actions",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "01_securecourier_capability"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_route_progress"
+    ],
+    "assets": [
+      "figures/ch04/securecourier-story/route-progress.png"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.5",
+    "printed_page": 16,
+    "pdf_page": 24,
+    "caption": "The gate sequence",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "01_securecourier_capability"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_gate_sequence"
+    ],
+    "assets": [
+      "figures/ch04/securecourier-story/gate-sequence.png"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.6",
+    "printed_page": 17,
+    "pdf_page": 25,
+    "caption": "How the next-state estimate enters an earlier TD target",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "02_securecourier_critic_repair"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_td_scene"
+    ],
+    "assets": [
+      "figures/ch04/securecourier-story/td-dependencies.png"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.7",
+    "printed_page": 18,
+    "pdf_page": 26,
+    "caption": "Shortcut choice after 1,024 learner cycles",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "03_securecourier_exact_weights"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_accurate_signal_scene"
+    ],
+    "assets": [
+      "figures/ch04/accurate-signal-scene/accurate-signal-choice.png"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "4.8",
+    "printed_page": 18,
+    "pdf_page": 26,
+    "caption": "Exact weights improve route choice and delivery return",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "03_securecourier_exact_weights"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "fig:sc_early_correction_results"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/early-feedback-correction.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "5.1",
+    "printed_page": 27,
+    "pdf_page": 35,
+    "caption": "One AWAC actor update with PDR",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "chapters/05-methodology.tex",
+    "labels": [
+      "fig:impl_flow"
+    ],
+    "assets": [
+      "figures/ch06/pdr-training-flow.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "6.1",
+    "printed_page": 33,
+    "pdf_page": 41,
+    "caption": "Standard TD and PDR rollouts across three benchmarks",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "07_keycorridor",
+      "09_loca",
+      "10_deepsea"
+    ],
+    "source": "chapters/06-effectiveness.tex",
+    "labels": [
+      "fig:current_rollouts"
+    ],
+    "assets": [
+      "figures/ch07/benchmark-rollouts/keycorridor-comparison.pdf",
+      "figures/ch07/benchmark-rollouts/loca-comparison.pdf",
+      "figures/ch07/benchmark-rollouts/deepsea-comparison.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "6.2",
+    "printed_page": 33,
+    "pdf_page": 41,
+    "caption": "KeyCorridor success, all eight methods",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "20_keycorridor_current"
+    ],
+    "source": "chapters/06-effectiveness.tex",
+    "labels": [
+      "fig:current_keycorridor"
+    ],
+    "assets": [
+      "figures/aamas/keycorridor-full.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "6.3",
+    "printed_page": 34,
+    "pdf_page": 42,
+    "caption": "MiniGridLoCA Task-B return, all eight methods",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "21_minigridloca_current"
+    ],
+    "source": "chapters/06-effectiveness.tex",
+    "labels": [
+      "fig:current_loca"
+    ],
+    "assets": [
+      "figures/aamas/loca-full.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "6.4",
+    "printed_page": 35,
+    "pdf_page": 43,
+    "caption": "DeepSea expected return",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "22_deepsea_current"
+    ],
+    "source": "chapters/06-effectiveness.tex",
+    "labels": [
+      "fig:current_deepsea"
+    ],
+    "assets": [
+      "figures/aamas/deepsea-early.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "6.5",
+    "printed_page": 36,
+    "pdf_page": 44,
+    "caption": "SecureCourier: PDR versus Standard TD",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "chapters/06-effectiveness.tex",
+    "labels": [
+      "fig:current_securecourier"
+    ],
+    "assets": [
+      "figures/aamas/securecourier.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "7.1",
+    "printed_page": 38,
+    "pdf_page": 46,
+    "caption": "Value correction in the controlled task",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "chapters/07-signal-timing.tex",
+    "labels": [
+      "current:fig:deepsea-mechanism"
+    ],
+    "assets": [
+      "figures/aamas/deepsea_mechanism.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "7.2",
+    "printed_page": 38,
+    "pdf_page": 46,
+    "caption": "Correct action ranking at three propagation distances",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "chapters/07-signal-timing.tex",
+    "labels": [
+      "current:fig:deepsea-ranking"
+    ],
+    "assets": [
+      "figures/aamas/deepsea_ranking.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "7.3",
+    "printed_page": 39,
+    "pdf_page": 47,
+    "caption": "Value recovery at $N=50$",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "chapters/07-signal-timing.tex",
+    "labels": [
+      "fig:rq3_front",
+      "fig:evaluation_rq3_mechanism"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-a-critic-front.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "7.4",
+    "printed_page": 40,
+    "pdf_page": 48,
+    "caption": "Depth truncation at $N=50$",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "chapters/07-signal-timing.tex",
+    "labels": [
+      "fig:rq3_depth"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-c-depth.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "7.5",
+    "printed_page": 41,
+    "pdf_page": 49,
+    "caption": "One-update actor response at $N=50$",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "chapters/07-signal-timing.tex",
+    "labels": [
+      "fig:rq3_actor",
+      "fig:current_controlled_actor_pulse"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-d-actor-front.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "8.1",
+    "printed_page": 44,
+    "pdf_page": 52,
+    "caption": "Common-only control in MiniGridLoCA",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "23_common_shift_control"
+    ],
+    "source": "chapters/08-signal-content.tex",
+    "labels": [
+      "fig:signal_common_only"
+    ],
+    "assets": [
+      "figures/ch08/common-only.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "8.2",
+    "printed_page": 45,
+    "pdf_page": 53,
+    "caption": "SecureCourier fixed-actor TD repair",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "24_critic_error_decomposition"
+    ],
+    "source": "chapters/08-signal-content.tex",
+    "labels": [
+      "fig:signal_td_repair"
+    ],
+    "assets": [
+      "figures/ch08/td-repair-decomposition.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "8.3",
+    "printed_page": 46,
+    "pdf_page": 54,
+    "caption": "MiniGridLoCA actor-input intervention",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "25_loca_actor_input"
+    ],
+    "source": "chapters/08-signal-content.tex",
+    "labels": [
+      "current:fig:minigridloca-actor-input"
+    ],
+    "assets": [
+      "figures/aamas/minigridloca_actor_input_intervention.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "8.4",
+    "printed_page": 47,
+    "pdf_page": 55,
+    "caption": "Actor-signal alignment and best-action probability change",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "26_loca_signal_alignment"
+    ],
+    "source": "chapters/08-signal-content.tex",
+    "labels": [
+      "current:fig:minigridloca-actor-signal"
+    ],
+    "assets": [
+      "figures/aamas/minigridloca_actor_signal_128.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "9.1",
+    "printed_page": 50,
+    "pdf_page": 58,
+    "caption": "Removing one component of the revalued signal",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "27_component_deletion"
+    ],
+    "source": "chapters/09-signal-composition.tex",
+    "labels": [
+      "fig:composition_deletion"
+    ],
+    "assets": [
+      "figures/ch09/component-deletion.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "A.1",
+    "printed_page": 59,
+    "pdf_page": 67,
+    "caption": "Graph construction and reference alignment",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "appendices/pdr-implementation-details.tex",
+    "labels": [
+      "fig:impl_records_graph"
+    ],
+    "assets": [
+      "figures/ch06/pdr-records-to-graph.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "A.2",
+    "printed_page": 61,
+    "pdf_page": 69,
+    "caption": "A complete state/pair/batch mapping",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "appendices/pdr-implementation-details.tex",
+    "labels": [
+      "fig:impl_layout_example"
+    ],
+    "assets": [
+      "figures/ch06/pdr-index-layout.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "A.3",
+    "printed_page": 62,
+    "pdf_page": 70,
+    "caption": "Streaming for the policy-only source",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "appendices/pdr-implementation-details.tex",
+    "labels": [
+      "fig:impl_streaming"
+    ],
+    "assets": [
+      "figures/ch06/pdr-streaming-workspace.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "B.1",
+    "printed_page": 68,
+    "pdf_page": 76,
+    "caption": "DeepSea continuations through 8,192 actor updates",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "22_deepsea_current"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "fig:current_deepsea_full"
+    ],
+    "assets": [
+      "figures/aamas/deepsea-full.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "B.2",
+    "printed_page": 69,
+    "pdf_page": 77,
+    "caption": "Public benchmark layouts",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "07_keycorridor",
+      "09_loca",
+      "10_deepsea"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "fig:benchmark_task_scenes"
+    ],
+    "assets": [
+      "figures/ch07/benchmark-scenes/benchmark-scenes.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.1",
+    "printed_page": 73,
+    "pdf_page": 81,
+    "caption": "Shortcut weights during actor--critic continuation",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "01_securecourier_capability"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:sc_weight_pairs_results"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/shortcut-training-weights.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.2",
+    "printed_page": 74,
+    "pdf_page": 82,
+    "caption": "Shortcut $Q$ during fixed-actor TD repair",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "02_securecourier_critic_repair"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:sc_junction_q_repair"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/junction-q-repair.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.3",
+    "printed_page": 74,
+    "pdf_page": 82,
+    "caption": "Stale junction estimates during fixed-actor TD training",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "02_securecourier_critic_repair"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:sc_replay_repair_results"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/replay-support-time-course.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.4",
+    "printed_page": 75,
+    "pdf_page": 83,
+    "caption": "Initial advantage and weight error on old shortcut records",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:rq1_signal",
+      "fig:rq1_initial_revaluation",
+      "fig:rq1_weight_accuracy"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-three-arm/rq1-a-signal.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.5",
+    "printed_page": 76,
+    "pdf_page": 84,
+    "caption": "Using the shortcut",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:rq1_route_choice",
+      "fig:rq1_junction_choice",
+      "fig:rq1_route_use"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-scene-comparison/pdr-shortcut-choice.png",
+      "figures/ch07/sc-d-three-arm/rq1-b-route-choice.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.6",
+    "printed_page": 77,
+    "pdf_page": 85,
+    "caption": "Expected discounted delivery return from the depot",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:rq1_early_return"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-three-arm/rq1-c-early-return.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.7",
+    "printed_page": 78,
+    "pdf_page": 86,
+    "caption": "Continued training through cycle 2,048",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:rq1_continuation"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-three-arm/rq1-d-continuation.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.8",
+    "printed_page": 78,
+    "pdf_page": 86,
+    "caption": "SecureCourier comparisons with critic baselines",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "06_securecourier_critic_baselines"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:sc_critic_baselines"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-critic-baselines/early-learning.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.9",
+    "printed_page": 80,
+    "pdf_page": 88,
+    "caption": "Early mean weight MAE on old shortcut records",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:rq1_weight_seeds"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-three-arm/rq1-s1-weight-seeds.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.10",
+    "printed_page": 80,
+    "pdf_page": 88,
+    "caption": "Cosine similarity to the exact-weight actor gradient",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:rq1_gradient_alignment"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-three-arm/rq1-s2-gradient.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.11",
+    "printed_page": 81,
+    "pdf_page": 89,
+    "caption": "Paired early gains over Standard TD",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:rq1_seed_consistency"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-three-arm/rq1-s3-paired-gains.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.12",
+    "printed_page": 82,
+    "pdf_page": 90,
+    "caption": "Full SecureCourier continuation",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "06_securecourier_critic_baselines"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:sc_critic_baselines_full"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-critic-baselines/full-continuation.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "C.13",
+    "printed_page": 83,
+    "pdf_page": 91,
+    "caption": "Gate use and delivery in the 2D view",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "fig:sc_delivery_states"
+    ],
+    "assets": [
+      "figures/ch04/securecourier-scenes/shortcut-milestones.png"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "D.1",
+    "printed_page": 84,
+    "pdf_page": 92,
+    "caption": "Synchronous TD support at $N=50$",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "appendices/app-d-timing.tex",
+    "labels": [
+      "fig:rq3_sync"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-s4-synchronous-support.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "D.2",
+    "printed_page": 85,
+    "pdf_page": 93,
+    "caption": "Size and threshold checks",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "appendices/app-d-timing.tex",
+    "labels": [
+      "fig:rq3_scale_threshold"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-s1-scales-thresholds.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "D.3",
+    "printed_page": 86,
+    "pdf_page": 94,
+    "caption": "Additional actor-mediation measurements at $N=50$",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "appendices/app-d-timing.tex",
+    "labels": [
+      "fig:rq3_mediation_checks"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-s2-mediation-checks.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "D.4",
+    "printed_page": 87,
+    "pdf_page": 95,
+    "caption": "Retrospective long-distance continuation",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "15_long_distance_actor"
+    ],
+    "source": "appendices/app-d-timing.tex",
+    "labels": [
+      "fig:rq3_long_distance"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-s3-long-distance.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "D.5",
+    "printed_page": 88,
+    "pdf_page": 96,
+    "caption": "Reads to 90\\% value recovery under two TD orders",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "appendices/app-d-timing.tex",
+    "labels": [
+      "fig:rq3_order"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-b-order-intervention.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "E.1",
+    "printed_page": 91,
+    "pdf_page": 99,
+    "caption": "LoCA--AWAC: gains between exact and learned references",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "11_reference_accuracy"
+    ],
+    "source": "appendices/app-e-signal-content.tex",
+    "labels": [
+      "fig:loca_reference_gain"
+    ],
+    "assets": [
+      "figures/appendix-g/loca-reference-sweep/reference-interpolation.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "E.2",
+    "printed_page": 93,
+    "pdf_page": 101,
+    "caption": "Q error as graph coverage increases",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "12_graph_coverage"
+    ],
+    "source": "appendices/app-e-signal-content.tex",
+    "labels": [
+      "fig:partial_graph_q_error"
+    ],
+    "assets": [
+      "figures/appendix-g/graph-coverage/q-error-coverage.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "E.3",
+    "printed_page": 94,
+    "pdf_page": 102,
+    "caption": "Early gains over standard TD as graph coverage increases",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "12_graph_coverage"
+    ],
+    "source": "appendices/app-e-signal-content.tex",
+    "labels": [
+      "fig:partial_graph_early_gain"
+    ],
+    "assets": [
+      "figures/appendix-g/graph-coverage/early-gain-coverage.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "E.4",
+    "printed_page": 95,
+    "pdf_page": 103,
+    "caption": "Learning curves under partial graph coverage",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "12_graph_coverage"
+    ],
+    "source": "appendices/app-e-signal-content.tex",
+    "labels": [
+      "fig:partial_graph_learning_curves"
+    ],
+    "assets": [
+      "figures/appendix-g/graph-coverage/learning-curves.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.1",
+    "printed_page": 100,
+    "pdf_page": 108,
+    "caption": "Learning performance against time",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "19_baseline_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_baseline_clock"
+    ],
+    "assets": [
+      "figures/ch07/baseline-cost/baseline-learning-clock.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.2",
+    "printed_page": 104,
+    "pdf_page": 112,
+    "caption": "Paired benchmark component times",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "14_benchmark_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_benchmark_components"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-benchmark-components.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.3",
+    "printed_page": 105,
+    "pdf_page": 113,
+    "caption": "Mean score versus cumulative training time",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "14_benchmark_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_benchmark_clock"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-benchmark-clock.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.4",
+    "printed_page": 106,
+    "pdf_page": 114,
+    "caption": "Native and optimized PDR time",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "14_benchmark_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_benchmark_preparation"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-benchmark-preparation.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.5",
+    "printed_page": 109,
+    "pdf_page": 117,
+    "caption": "The retained neural-reference LoCA QAC pair",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "14_benchmark_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_benchmark_qac_difference"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-benchmark-qac-difference.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.6",
+    "printed_page": 109,
+    "pdf_page": 117,
+    "caption": "Time and success on exact-reference KeyCorridor",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "07_keycorridor"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_training_cost"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-a-training-cost.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.7",
+    "printed_page": 111,
+    "pdf_page": 119,
+    "caption": "Exact-reference KeyCorridor over checkpoints",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "07_keycorridor"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_key_time"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-s1-key-time.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.8",
+    "printed_page": 113,
+    "pdf_page": 121,
+    "caption": "Paired SecureCourier query and solve timings",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "16_securecourier_optimized_refresh"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_compiled"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-b-refresh-signal.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.9",
+    "printed_page": 113,
+    "pdf_page": 121,
+    "caption": "SecureCourier cost accounting and sparse-change scaling",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "16_securecourier_optimized_refresh",
+      "17_sparse_change"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_reuse"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-c-reuse.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.10",
+    "printed_page": 115,
+    "pdf_page": 123,
+    "caption": "Additional numerical-path timings",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "18_solver_backends"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_numerical_path"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-s2-numerical-path.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "figure",
+    "number": "G.11",
+    "printed_page": 115,
+    "pdf_page": 123,
+    "caption": "Stochastic scaling systems",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "18_solver_backends"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "fig:rq4_scaling"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/rq4-s3-scaling.pdf"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "3.1",
+    "printed_page": 8,
+    "pdf_page": 16,
+    "caption": "Prior work grouped by the quantity it changes",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "chapters/03-related-work.tex",
+    "labels": [
+      "tab:rw_method_interfaces"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "4.1",
+    "printed_page": 15,
+    "pdf_page": 23,
+    "caption": "Shortcut training weights during continuation",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "01_securecourier_capability"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "tab:sc_weight_checkpoints"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/shortcut-training-weights-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "4.2",
+    "printed_page": 17,
+    "pdf_page": 25,
+    "caption": "Junction shortcut $Q$ with the actor fixed",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "02_securecourier_critic_repair"
+    ],
+    "source": "chapters/04-motivating-experiment.tex",
+    "labels": [
+      "tab:sc_q_repair_checkpoints"
+    ],
+    "assets": [
+      "figures/ch04/story-results-50-seeds/junction-q-repair-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "5.1",
+    "printed_page": 25,
+    "pdf_page": 33,
+    "caption": "Actor inputs built from one reference and one solved change",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "chapters/05-methodology.tex",
+    "labels": [
+      "tab:pdr_signal_conditions"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "6.1",
+    "printed_page": 30,
+    "pdf_page": 38,
+    "caption": "Experiments in this thesis",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "chapters/06-effectiveness.tex",
+    "labels": [
+      "tab:experiment_map"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "6.2",
+    "printed_page": 31,
+    "pdf_page": 39,
+    "caption": "Continuation budgets, early windows and paired seeds",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "20_keycorridor_current",
+      "21_minigridloca_current",
+      "22_deepsea_current"
+    ],
+    "source": "chapters/06-effectiveness.tex",
+    "labels": [
+      "tab:effectiveness_budgets"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "6.3",
+    "printed_page": 32,
+    "pdf_page": 40,
+    "caption": "Early and final performance on the public benchmarks",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "20_keycorridor_current",
+      "21_minigridloca_current",
+      "22_deepsea_current"
+    ],
+    "source": "figures/aamas/current-results-table.tex",
+    "labels": [
+      "tab:current_results"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "7.1",
+    "printed_page": 40,
+    "pdf_page": 48,
+    "caption": "Distance slopes of reads to 90\\% value recovery",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "chapters/07-signal-timing.tex",
+    "labels": [
+      "tab:rq3_order"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-b-order-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "7.2",
+    "printed_page": 42,
+    "pdf_page": 50,
+    "caption": "Value-input ablation",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "chapters/07-signal-timing.tex",
+    "labels": [
+      "tab:rq3_ablation"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/rq3-e-ablation-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "8.1",
+    "printed_page": 48,
+    "pdf_page": 56,
+    "caption": "Accuracy and behaviour rank interventions differently",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "06_securecourier_critic_baselines",
+      "12_graph_coverage"
+    ],
+    "source": "chapters/08-signal-content.tex",
+    "labels": [
+      "tab:actor_accuracy_mismatch"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "9.1",
+    "printed_page": 51,
+    "pdf_page": 59,
+    "caption": "Reference and change weighting with learned references",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "28_coefficients_and_scale"
+    ],
+    "source": "chapters/09-signal-composition.tex",
+    "labels": [
+      "current:tab:advantage-coefficients"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "A.1",
+    "printed_page": 60,
+    "pdf_page": 68,
+    "caption": "Reuse conditions",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "appendices/pdr-implementation-details.tex",
+    "labels": [
+      "tab:impl_caches"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "A.2",
+    "printed_page": 63,
+    "pdf_page": 71,
+    "caption": "Core evaluation costs",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "appendices/pdr-implementation-details.tex",
+    "labels": [
+      "tab:impl_costs",
+      "tab:impl_additional_costs"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "A.3",
+    "printed_page": 64,
+    "pdf_page": 72,
+    "caption": "Recorded timer boundaries in the training adapter",
+    "classification": "conceptual_or_definition",
+    "studies": [],
+    "source": "appendices/pdr-implementation-details.tex",
+    "labels": [
+      "tab:impl_timers"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.1",
+    "printed_page": 65,
+    "pdf_page": 73,
+    "caption": "Current PDR training settings",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr",
+      "20_keycorridor_current",
+      "21_minigridloca_current",
+      "22_deepsea_current"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:current_hyperparameters"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.2",
+    "printed_page": 66,
+    "pdf_page": 74,
+    "caption": "PDR configurations",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr",
+      "20_keycorridor_current",
+      "21_minigridloca_current",
+      "22_deepsea_current"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:impl_settings"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.3",
+    "printed_page": 66,
+    "pdf_page": 74,
+    "caption": "Settings searched per method",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "20_keycorridor_current",
+      "21_minigridloca_current",
+      "22_deepsea_current"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:tuning_effort"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.4",
+    "printed_page": 67,
+    "pdf_page": 75,
+    "caption": "All selected methods: early means",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "20_keycorridor_current",
+      "21_minigridloca_current",
+      "22_deepsea_current"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:current_all_early"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.5",
+    "printed_page": 67,
+    "pdf_page": 75,
+    "caption": "All selected methods: final means",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "20_keycorridor_current",
+      "21_minigridloca_current",
+      "22_deepsea_current"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:current_all_final"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.6",
+    "printed_page": 70,
+    "pdf_page": 78,
+    "caption": "What changes between learning conditions",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr",
+      "07_keycorridor",
+      "08_public_critic_baselines",
+      "09_loca",
+      "10_deepsea"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:evaluation_conditions"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.7",
+    "printed_page": 71,
+    "pdf_page": 79,
+    "caption": "Learning measures and budgets",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr",
+      "07_keycorridor",
+      "08_public_critic_baselines",
+      "09_loca",
+      "10_deepsea"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:evaluation_learning_budgets"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "B.8",
+    "printed_page": 72,
+    "pdf_page": 80,
+    "caption": "Transferred critic-baseline settings",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "06_securecourier_critic_baselines",
+      "08_public_critic_baselines"
+    ],
+    "source": "appendices/app-b-protocols.tex",
+    "labels": [
+      "tab:rq2_critic_baseline_settings"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "C.1",
+    "printed_page": 79,
+    "pdf_page": 87,
+    "caption": "SecureCourier early means",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "06_securecourier_critic_baselines"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "tab:sc_critic_baselines"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-critic-baselines/early-results-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "C.2",
+    "printed_page": 82,
+    "pdf_page": 90,
+    "caption": "SecureCourier early paired effects",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "06_securecourier_critic_baselines"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "tab:sc_critic_baselines_paired"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-critic-baselines/paired-effects-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "C.3",
+    "printed_page": 83,
+    "pdf_page": 91,
+    "caption": "SecureCourier outcomes at cycle 2,048",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "06_securecourier_critic_baselines"
+    ],
+    "source": "appendices/app-c-securecourier.tex",
+    "labels": [
+      "tab:sc_critic_baselines_final"
+    ],
+    "assets": [
+      "figures/ch07/sc-d-critic-baselines/final-results-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "D.1",
+    "printed_page": 88,
+    "pdf_page": 96,
+    "caption": "Distance slopes relative to replay TD",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "13_propagation_mechanism"
+    ],
+    "source": "appendices/app-d-timing.tex",
+    "labels": [
+      "tab:rq3_relative_slope"
+    ],
+    "assets": [
+      "figures/ch07/rq3-mechanism/relative-slope-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "E.1",
+    "printed_page": 89,
+    "pdf_page": 97,
+    "caption": "Common-only ablation in MiniGridLoCA",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "23_common_shift_control"
+    ],
+    "source": "appendices/app-e-signal-content.tex",
+    "labels": [
+      "tab:app_common_only"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "E.2",
+    "printed_page": 90,
+    "pdf_page": 98,
+    "caption": "SecureCourier fixed-actor TD repair: error and sign",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "24_critic_error_decomposition"
+    ],
+    "source": "appendices/app-e-signal-content.tex",
+    "labels": [
+      "tab:app_td_repair"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "F.1",
+    "printed_page": 97,
+    "pdf_page": 105,
+    "caption": "Full revaluation, change only and statewise gates",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "29_statewise_gates"
+    ],
+    "source": "appendices/app-f-composition.tex",
+    "labels": [
+      "tab:app_signal_gates"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "F.2",
+    "printed_page": 97,
+    "pdf_page": 105,
+    "caption": "Mixtures of full-revaluation and change-only weights",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "30_weight_mixtures"
+    ],
+    "source": "appendices/app-f-composition.tex",
+    "labels": [
+      "tab:app_signal_mixtures"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.1",
+    "printed_page": 99,
+    "pdf_page": 107,
+    "caption": "Cost of the five methods on RTX 3090",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "19_baseline_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_baseline_cost"
+    ],
+    "assets": [
+      "figures/ch07/baseline-cost/baseline-cost-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.2",
+    "printed_page": 101,
+    "pdf_page": 109,
+    "caption": "Optimized PDR time relative to each baseline",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "19_baseline_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_baseline_ratios"
+    ],
+    "assets": [
+      "figures/ch07/baseline-cost/baseline-ratios-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.3",
+    "printed_page": 101,
+    "pdf_page": 109,
+    "caption": "Mean task scores at a shared time",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "19_baseline_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_baseline_time_scores"
+    ],
+    "assets": [
+      "figures/ch07/baseline-cost/baseline-time-scores-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.4",
+    "printed_page": 103,
+    "pdf_page": 111,
+    "caption": "Paired native and optimized PDR on RTX 3090",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "14_benchmark_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_benchmark_cost"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/benchmark-cost-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.5",
+    "printed_page": 104,
+    "pdf_page": 112,
+    "caption": "Native--optimized implementation differences",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "14_benchmark_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_benchmark_signal"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/benchmark-signal-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.6",
+    "printed_page": 108,
+    "pdf_page": 116,
+    "caption": "Task scores in paired native--optimized runs",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "14_benchmark_computational_cost"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_benchmark_scores"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/benchmark-score-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.7",
+    "printed_page": 110,
+    "pdf_page": 118,
+    "caption": "Recorded costs in the learning runs",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "05_securecourier_pdr",
+      "07_keycorridor",
+      "09_loca"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_learning_costs"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/learning-costs-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.8",
+    "printed_page": 112,
+    "pdf_page": 120,
+    "caption": "Paired SecureCourier PDR implementations on CPU",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "16_securecourier_optimized_refresh"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_optimization"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/optimization-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.9",
+    "printed_page": 112,
+    "pdf_page": 120,
+    "caption": "Native--optimized agreement on SecureCourier",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "16_securecourier_optimized_refresh"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_equivalence"
+    ],
+    "assets": [
+      "figures/ch07/rq4-cost/signal-agreement-table.tex"
+    ],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.10",
+    "printed_page": 114,
+    "pdf_page": 122,
+    "caption": "PDR source discovery from policy snapshots",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "17_sparse_change"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_source_cost"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  },
+  {
+    "kind": "table",
+    "number": "G.11",
+    "printed_page": 116,
+    "pdf_page": 124,
+    "caption": "Scaling-backend timer scopes",
+    "classification": "experimental_or_protocol",
+    "studies": [
+      "18_solver_backends"
+    ],
+    "source": "appendices/app-g-cost.tex",
+    "labels": [
+      "tab:rq4_backend_timers"
+    ],
+    "assets": [],
+    "assets_exist": true,
+    "mapping_status": "mapped"
+  }
+]

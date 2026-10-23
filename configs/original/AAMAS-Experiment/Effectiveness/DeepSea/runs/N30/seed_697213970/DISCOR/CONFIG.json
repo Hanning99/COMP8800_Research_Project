@@ -1,0 +1,60 @@
+{
+  "cell": {
+    "id": "DeepSea_N30_exact_AWAC",
+    "family": "DeepSea",
+    "N": 30,
+    "reference": "exact",
+    "backbone": "AWAC",
+    "updates": 8192,
+    "seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370,
+      897925774,
+      1482992932,
+      455479392,
+      437841576
+    ],
+    "validation_seeds": [
+      697213970,
+      1049202216,
+      1879683417,
+      1199701853,
+      1405763640,
+      1580538728,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      187243630
+    ],
+    "preview_seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ]
+  },
+  "seed": 697213970,
+  "recipe": {
+    "id": "DISCOR_G8",
+    "method": "DISCOR",
+    "gain": 8
+  },
+  "initial_source": "/data3/hanning/sota/ours_50seeds_20260928/new/DeepSea_N30_exact_AWAC/seed_697213970/OURS/INITIAL.pt",
+  "initial_source_sha256": "dc864e18645fdf714f1a803611b619813ea0797a16a51a2c901c10d18d5f9382",
+  "schedule_sha256": "79c6da18bf02cdc00ff0c184c67a4b61873a902275d3fddb572b3b48c1a17b39",
+  "inputs": {
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_697213970/COMMON_START.pt": "b62061b2d1d7bb6c506c9de5e916791f64d4f886c296e1e26362caecaaa646f2",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_697213970/graph.npz": "00b9fc6c4c803cf82d5fa7f5935dd641a5fa1624b205a9adfdf71d1dd8cca5d3",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_697213970/schedule.npz": "2e23d6cb410944d67d1d6fda7ce6e77c7d698d8e1f796a09f58e473c53ddbb64",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_697213970/historical_rows.parquet": "99546d51454a621113913cc0532e1717c4cacbebfc0a6ac14da930254f02bc58",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_697213970/support_rows.parquet": "ff0d6c4694da316325fbc60c0a719f8ee76b90e35a636f7b410c3607953ace22"
+  },
+  "common_initial_bitwise_matched": true
+}

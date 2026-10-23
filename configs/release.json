@@ -1,0 +1,21 @@
+{
+  "title": "One Solve, Every Step: Accelerating Actor\u2013Critic Learning",
+  "author": "Hanning Deng",
+  "artifact_version": "2026-10-23",
+  "scope": "Four complete benchmark reproduction packages; analysis/ablation checkpoint histories excluded",
+  "paper_sha256": "61643d308ca91300c3b855e0be7bf4c6688e10e43641e5ebc1d519dc643b008d",
+  "evidence_paper_sha256": "c927cebe5e40336a9df4f94fd407cb033842880a6cdb5f7ff44da69e310c2c43",
+  "github": {
+    "repository": "https://github.com/Hanning99/COMP8800_Research_Project",
+    "visibility": "private",
+    "commit": null
+  },
+  "checkpoints": {
+    "repository": "https://huggingface.co/datasets/denghanning/COMP8800_Research_Project",
+    "repo_id": "denghanning/COMP8800_Research_Project",
+    "repo_type": "dataset",
+    "visibility": "private",
+    "revision": null
+  },
+  "publication_status": "local preparation; upload not yet completed"
+}

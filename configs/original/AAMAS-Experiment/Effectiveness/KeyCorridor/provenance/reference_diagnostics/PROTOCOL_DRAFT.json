@@ -1,0 +1,108 @@
+{
+  "status": "DEVELOPMENT_ONLY_NOT_LOCKED",
+  "experiment": "KEYCORRIDOR_NEURAL_QOLD_THREE_BACKBONE_CONFIRMATORY",
+  "master_seed": 20260906,
+  "backbones": [
+    "AWAC",
+    "SAC",
+    "EXPECTED_SARSA_QAC"
+  ],
+  "tasks": [
+    "S3R1",
+    "S3R2",
+    "S3R3",
+    "S4R3",
+    "S5R3",
+    "S6R3"
+  ],
+  "arms": [
+    "A0_STANDARD_TD",
+    "A1_STATIC_NEURAL_QOLD",
+    "A2_FRESH_PDR_NEURAL_QOLD"
+  ],
+  "neural_anchor": {
+    "architecture": "immutable KeyCorridor Critic: (state features,time)->MLP(256,256)->7 actions",
+    "heads": {
+      "AWAC": 1,
+      "SAC": 2,
+      "EXPECTED_SARSA_QAC": 1
+    },
+    "training_seed": 2026090601,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 8192,
+    "max_steps": 12800,
+    "score_interval": 3200,
+    "demo_fraction": 0.5,
+    "objective": "fixed reverse-Bellman FQE teacher MSE plus equal-weight differentiable Bellman-residual MSE on all legal actions",
+    "teacher_semantics": "independently recomputed finite-horizon Bellman recurrence from graph,reward,serialized pi_old; no behavior outcome",
+    "release_gate": {
+      "validation_q_normalized_mae_max": 0.02,
+      "validation_centered_advantage_mae_max": 0.0025,
+      "validation_bellman_residual_rmse_max": 0.005,
+      "actor_gradient_cosine_min": 0.99,
+      "actor_gradient_relative_l2_max": 0.075,
+      "corrected_q_mean_abs_error_max": 0.0025,
+      "corrected_q_max_abs_error": "descriptive_only_not_a_release_gate"
+    },
+    "release_gate_rationale": "Frozen from S4R3 development before any A0/A1/A2 behavior outcome. KeyCorridor has up to millions of finite-horizon state-action entries, so isolated full-table extrema are descriptive; release is governed by aggregate Bellman fidelity and the centered signal and gradient actually consumed by the actor. The same thresholds apply to every task and backbone.",
+    "formal_training_schedule": [
+      {
+        "gradient_steps": 25600,
+        "learning_rate": 0.001
+      },
+      {
+        "gradient_steps": 12800,
+        "learning_rate": 0.0001
+      },
+      {
+        "gradient_steps": 6400,
+        "learning_rate": 1e-05
+      },
+      {
+        "gradient_steps": 6400,
+        "learning_rate": 3e-06
+      }
+    ],
+    "release_retry_rule": {
+      "trigger": "only a preregistered anchor release-gate failure before any behavior outcome",
+      "gradient_steps": 12800,
+      "learning_rate": 1e-06,
+      "maximum_total_steps": 64000,
+      "seed_and_checkpoint": "same prelocked seed; resume the failed checkpoint; no seed replacement",
+      "scope": "only failed heads (both heads if the SAC twin-min aggregate fails); thresholds unchanged"
+    }
+  },
+  "behavior": {
+    "paired_seeds_per_task": 20,
+    "reserve_seeds_per_task": 10,
+    "updates": 512,
+    "early_window": [
+      0,
+      128
+    ],
+    "checkpoints": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      96,
+      128,
+      192,
+      256,
+      384,
+      512
+    ],
+    "diagnostic_checkpoints": [
+      32,
+      128,
+      256
+    ],
+    "bootstrap_repetitions": 10000
+  },
+  "claim_boundary": "neural-anchor functional-approximation robustness; not compute efficiency or a propagation-front measurement"
+}

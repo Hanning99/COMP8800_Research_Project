@@ -1,0 +1,542 @@
+[
+  {
+    "path": "src/releases/DeepSea/README.md",
+    "sha256": "e917394ff58fb453b652b8511a7a7ee980c638c20b5ab8db0265dc80bb104185"
+  },
+  {
+    "path": "src/releases/DeepSea/requirements.txt",
+    "sha256": "edf368abfd72dd29dd2c8c6b624d6defd0216c85359cbc3c8c5cd16285b00501"
+  },
+  {
+    "path": "src/releases/DeepSea/src/kernels.cpp",
+    "sha256": "2ed66101a74527e5b4fcb0f3c5ec3ebbba84a0e24fb8879d3c99d259a24e596c"
+  },
+  {
+    "path": "src/releases/DeepSea/src/priority_sampling.py",
+    "sha256": "83dcddba55924ab4e113fef3e6e2435b3a6d5a32fdc5400af869421788c8a214"
+  },
+  {
+    "path": "src/releases/DeepSea/src/contrast.py",
+    "sha256": "1dc48f6ecca2035e2aef0fae89f7bd3f163e4ff3912d210a64cbb3a917b0166f"
+  },
+  {
+    "path": "src/releases/DeepSea/src/common.py",
+    "sha256": "965b2cb7b31970a330c42d8e1eecc8a094b8572a52e33bd706f4b8b9b9a80ce8"
+  },
+  {
+    "path": "src/releases/DeepSea/src/planning.py",
+    "sha256": "b4fa157d3b4f4281c8f484e8249450668aec90a9fcb0d8130d56c559ca77d8b9"
+  },
+  {
+    "path": "src/releases/DeepSea/src/learner.py",
+    "sha256": "b4a7fb76ac3c6e9bf073e7372812662c44752df9c89a4b1fad45148264fbf4f6"
+  },
+  {
+    "path": "src/releases/DeepSea/src/planning.cpp",
+    "sha256": "e44c6a9411e2d1ee69b8dd63e5bb1a07f2b2a827c2c21f0b79b695607457ed00"
+  },
+  {
+    "path": "src/releases/DeepSea/src/baselines.py",
+    "sha256": "aa544eb39ce342310fe41c94e31d9a94ae96125f5727f2a2b7d56415a2b30f34"
+  },
+  {
+    "path": "src/releases/DeepSea/scripts/test_matrix.py",
+    "sha256": "56e5dc1ae649060ce49e7e140703106d51d4da5ff3d9c300ecb580d19746e014"
+  },
+  {
+    "path": "src/releases/DeepSea/scripts/reproduce.py",
+    "sha256": "d8412ecdc62e83b7703984b0828d1f45102b096a121d51bdfa295342bd34c08b"
+  },
+  {
+    "path": "src/releases/DeepSea/scripts/audit_policies.py",
+    "sha256": "f02238270d6a70cde600d6abc0a116584cd7b8c7d4617230520d7021d5f82703"
+  },
+  {
+    "path": "src/releases/DeepSea/scripts/verify.py",
+    "sha256": "e756a5dee92e71bd3fc240d21c18a2c8bc77dbc0ebfb3612d61ac78745ea5786"
+  },
+  {
+    "path": "src/releases/DeepSea/scripts/build.py",
+    "sha256": "8b905162a9c702024378c819e2d3fc429be93f51391d9a2caf7b31c374105cb8"
+  },
+  {
+    "path": "src/releases/DeepSea/scripts/aggregate.py",
+    "sha256": "b23550b79819744b2ae34fb48ff29881a65cedab07d3affcb47b608fcbe98b21"
+  },
+  {
+    "path": "src/releases/DeepSea/vendor/deepsea_experiment.py",
+    "sha256": "20ce4e1bc186cf38ea15f588c14830537ce208bf75d9146fb0add63b15d663f2"
+  },
+  {
+    "path": "src/releases/KeyCorridor/README.md",
+    "sha256": "af807619a18c1d71f31261a14c8eeb4ae319caf359f6daff8f2981aa97debd63"
+  },
+  {
+    "path": "src/releases/KeyCorridor/requirements.txt",
+    "sha256": "b64b3b49ef7990277bafb1952c10463a8d9cabb017717f0c61907ed27f2e5f6b"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/key_cuda.py",
+    "sha256": "2db4f2c2d4dc81ccbeeb86479be76f003a7b203316616e23997cb64fb22a409f"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/priority_sampling.py",
+    "sha256": "83dcddba55924ab4e113fef3e6e2435b3a6d5a32fdc5400af869421788c8a214"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/common.py",
+    "sha256": "c0488d09089e3ae855abf1c600b071187239870c906f51e7d002365b38e7e675"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/planning.py",
+    "sha256": "b4fa157d3b4f4281c8f484e8249450668aec90a9fcb0d8130d56c559ca77d8b9"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/learner.py",
+    "sha256": "f211930b1e8916463eb3a333a3faf4e28bbda42ee5c61cf7bd6e824ce7bf9912"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/emphasis.py",
+    "sha256": "3483dc812dd6c3cb73dfeed1bb04e64f4abb857f0ac84636f2987441d6931a65"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/planning.cpp",
+    "sha256": "e44c6a9411e2d1ee69b8dd63e5bb1a07f2b2a827c2c21f0b79b695607457ed00"
+  },
+  {
+    "path": "src/releases/KeyCorridor/src/baselines.py",
+    "sha256": "aa544eb39ce342310fe41c94e31d9a94ae96125f5727f2a2b7d56415a2b30f34"
+  },
+  {
+    "path": "src/releases/KeyCorridor/scripts/test_matrix.py",
+    "sha256": "7e717310badd6ce036b991599cc7537fa4ba0358b70ef062ce382b4f538dc739"
+  },
+  {
+    "path": "src/releases/KeyCorridor/scripts/reference.py",
+    "sha256": "64ffe78d065d71f7b7f790716576881821ac77fede1d4e1ec850f283c8b96bfd"
+  },
+  {
+    "path": "src/releases/KeyCorridor/scripts/reproduce.py",
+    "sha256": "ab5f1f4bfe82027409927e486ee1dba1888922eb88854953227dc9e4129d542b"
+  },
+  {
+    "path": "src/releases/KeyCorridor/scripts/verify.py",
+    "sha256": "fa59fe87d35c963c1c67467f6bf986e2366b3b7ca9d58369d85fbafd6f6d6d6f"
+  },
+  {
+    "path": "src/releases/KeyCorridor/scripts/build.py",
+    "sha256": "387950583469f6eb4af50036c9e8a0e8d62dc3b6ed879b9922da96b9441f42d8"
+  },
+  {
+    "path": "src/releases/KeyCorridor/scripts/aggregate.py",
+    "sha256": "8691efcac57dc62c17b116cbf17b126e85b4380f596c1215aca51f5a6b22187d"
+  },
+  {
+    "path": "src/releases/KeyCorridor/vendor/key_exact.py",
+    "sha256": "c793f8c5a4e05676fd5fa7299455498c3fd2b2f35322ef469c130c0d290beaa9"
+  },
+  {
+    "path": "src/releases/KeyCorridor/vendor/run_replication.py",
+    "sha256": "36c6c11d8ee16876817b88856058e1fa75bdfcf5be1331d81af35eb412606472"
+  },
+  {
+    "path": "src/releases/SecureCourier/README.md",
+    "sha256": "add6aea8a56e148f7ed8c1a07cf8a31d66dbc859108c7052aa5289ad97d745f1"
+  },
+  {
+    "path": "src/releases/SecureCourier/requirements.txt",
+    "sha256": "a3b3758274e46381ac31bb5e71992f45189eddf0d78bc496e181eb2712e9efaf"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/validate_isolated.py",
+    "sha256": "14115372ea346f33230e2fef73c35d4474c1b282d5eb316a8a98208feacc4ea3"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/bootstrap.py",
+    "sha256": "02972e3b5396b4b8ecb0d935c3d383a0c68e7d941b1cf2bdaaa6c09a7c5b7b4f"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/export_csv.py",
+    "sha256": "f5bb28cd7add84562b3797d40b7d3905a4b1e462a5f058066105940b2327d275"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/combine_validation.py",
+    "sha256": "4409c84a5fcd0db248684527794a853f8a73b08eeafce85031d692d83155a8e2"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/check_method.py",
+    "sha256": "b261cfb0a0189c50a69bbc9e1104b7fc1241fb57751d505798445d6777e1699c"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/plot.py",
+    "sha256": "3c0083f5b9d2579d8342ff2a7d57120ad27bb69d67447588cc425bcd2642e3bc"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/verify.py",
+    "sha256": "fb6999601b9c201ad83426f98aacc837ae52b16dc8168aea77153e6e07774972"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/check_training.py",
+    "sha256": "4fe247c3d7ce2729341ed612857b49076a80d8bd098628b28146bafa63e01b31"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/rescore.py",
+    "sha256": "0b77bc5ed58b0faccc26b172856eeddc7e87eb3fd088734fa8b57b33f305e294"
+  },
+  {
+    "path": "src/releases/SecureCourier/scripts/train.py",
+    "sha256": "6208b353ea699dc99d61a26ca61cc72605482f7ef85dd94a0230af65c5d39532"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/audit_amended.py",
+    "sha256": "ac77138a1d892ed09b36391108deeeff79856641d50ff1f5657bc4f1ab8debd8"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/build_closed_dag.py",
+    "sha256": "2f21c08397a0981056a29afc0320fac8dedc9a23e03274129ec567dbeadf3a5a"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/plot_sc_d.py",
+    "sha256": "c639ce1d30c69b9c82b9a606f3290cad9bb8a4105eed2f1c9736fe4f68dbe5d8"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/audit_d3.py",
+    "sha256": "5438117a8d93feb55b78b21f01e6148c4d875159e371d2dab4c3cf30192196e7"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/audit_gpu.py",
+    "sha256": "414396cbfd9d27582929abdf280ba375425ab5594f255930b267dde5ff84f7b6"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/compile_pdr_reference.py",
+    "sha256": "4a073610b4a1365bdfb0b127b39b089b018e169043a9c47011c2a51d5a31579a"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/scd_common.py",
+    "sha256": "74d2dfaddd1b1db67df0d5d84c6263ef90501e59dfa0d6700520f66cc0a1432c"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/verdict_sc_d.py",
+    "sha256": "0d0ab56a92d67881bbd2e1c9218b536470b846f0e279fda0e1f4937718fed700"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/audit_d2.py",
+    "sha256": "94b5bbdbace40e6f9ad40a1781460336d003892433546cdbab587b971d3d676b"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/analyze_sc_d.py",
+    "sha256": "c4694c6e26198ac8fe21d4d251971d4a2264e162685e4eb8e4944a0fb1cdcf38"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/reverse_pdr.py",
+    "sha256": "87d3009f838acec7748d310fa2c4ac1ef099753a7d6be5f1e844a577288190a8"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/build_legacy_reuse_manifest.py",
+    "sha256": "6dcaf6d0fbff4083a896b5c8de44ec0ccfb6a1c28437c564fecf7dbec66a08c8"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/pdr_awac_adapter.py",
+    "sha256": "ba72ba1cc4378d1366aa2f84a8c933cc0b18800b10fae103a5723d6f3428c2e9"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/run_sc_d.py",
+    "sha256": "58a3e6e4aeec1da011e7b066af1412b9e89056f41a0d93d6df7c5f24cf0b7972"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/compile_cohort.py",
+    "sha256": "3b2df1a3972ce3856c0e6d2ce84b0c4246105ea011aba5215b2d42b5363a9f94"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/run_cohort.py",
+    "sha256": "db78a41496ebeae5e0099b310516901368bdef7a1053dbc4d5f93d579b98378f"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/training_core.py",
+    "sha256": "e88d5a614ded62fe53a13f806c3f0a8e73bb607e22fd5ba496015dbb9d18a2db"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/scoring_sc_d.py",
+    "sha256": "bdb32474f8599a6940d7ccf8821d0c565f5b0b2d7cdb4eca746efeebeff13376"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/src/lock_sc_d.py",
+    "sha256": "ca4c35549071fcc3d38d2afaf20113cb3a85ffe225facd851a94e8dfe5f4d00e"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/sc_d/tests/test_reverse_pdr.py",
+    "sha256": "25b93e2089dbdecd596e33dfbd1ca3583259186d0b9c3cba2e022f02d1e6a617"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/oracle_scoring.py",
+    "sha256": "28068e6678e3738756ce0bc206ca4045a1c07c4ae8cdc3776b09fb409abf363c"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/run_source_event.py",
+    "sha256": "ca530ed1d0392982139f99a0b379f46923965d6d9ba32345a55038bfd2e65898"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/launch_m7.py",
+    "sha256": "4009e86306631b2ca5137ead7619a6e7087f467bdf2b35808cc8130adb17d90a"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/build_sc_b_replay.py",
+    "sha256": "9b97b43c18211a11aefc040f2ead7eb2ff8cbd7c4ba0639bce8e2963c2d3fdd8"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/scabc_common.py",
+    "sha256": "fefaeb055e7d127f0f69397b50ed81eecc96091b09021fdf25073cc0463e3e61"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/run_sc_c_oracle.py",
+    "sha256": "603c02709ecab3b8e49ebd678c78e32df8c7480dd7e27c5efb106b6a066b5591"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/audit_m2_awac_interface.py",
+    "sha256": "f67dda55ee2f1afeac8ac094da801862e2ae092e333243e7044c43df46ae92ac"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/prepare_sc_c_branches.py",
+    "sha256": "03ab6fef5d9619812b9d2b970e1ead5a69889fd15e408c24719920a05a9e5a36"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/summarize_m5_pilot.py",
+    "sha256": "090b98811e599fd1dc95ac4884fe3dd8fb5a1d958c58f778c9bf814753078b45"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/summarize_m4_pilot.py",
+    "sha256": "20c745963f583666895d7b8c4d020fa3aab59af8b4f0133511ed112307ab777d"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/build_m0_inventory.py",
+    "sha256": "4676b065e15a88025fe90713866ea7cb7771ab7feb4f396b1d7373daa41a5f66"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/run_m7_event.py",
+    "sha256": "b47c440a469f4f2fd20061ad087f929ec295e699904a4b186ab9d53fa11acf0b"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/oracle_treatment.py",
+    "sha256": "1ac05d4a60309cd4e04151d46d0c43010c6503ee5ab3bbfd167089811df31c74"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/build_sc_c_panels.py",
+    "sha256": "88e6ffd6fb06da260bc6de52aef7e1e00d13200b20e29a50fca6b8e811fa5c61"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/extract_sc_a_trace.py",
+    "sha256": "9c4e0544bb51c68761fe6175ffdef4a3c71926a20cf106626ebb3fadf60db58c"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/prepare_sc_b_branches.py",
+    "sha256": "c0de33783b6668b0f88c0698ab736ee524ecdbb7b488ee95898e21e38627462c"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/audit_m3_resume.py",
+    "sha256": "1128bc791477653737cce6d5d105a0ee753c0d015eb6d20a1e784fbbb9f2f881"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/run_sc_b_repair.py",
+    "sha256": "1135f3f9adc5d09d977ef10e53b08d8f9b2c16aafead9e869f0d6513b3673bc7"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/audit_m5_resume.py",
+    "sha256": "394060b735b5fec6e3aaad7270c335eb65134d03f904b8411028ea0f64873715"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/build_m6_lock.py",
+    "sha256": "dfe0cbb73dfcf0e16087ccc17a5f1317a4b270cd3838ac699c6f1f95430bea36"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/data/collect_offline.py",
+    "sha256": "6d79473c56c75494ff66eb620d23033d330e995d568f7af8942e59755f2d2a8f"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/data/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/data/schemas.py",
+    "sha256": "898a9b183479b03bfaa30290fd9491b196c1b4f9b93d75275803b11f37d809ac"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/capability/evaluate_capability.py",
+    "sha256": "7b0b7ab40ca7426295daf91e8765034d7e430251febf1d2577f76d345bd93c5e"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/capability/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/rq1/measure_staleness.py",
+    "sha256": "b7f74ffef2e9b6182fd9939c31b6ccb310efd97353af13f2bd50ce4b5006621f"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/rq1/exact_value_table.py",
+    "sha256": "5a95b162fcaecb157d325b5d843f7d76c7c26680554549955f66613e283c403a"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/rq1/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/secure_courier/generator.py",
+    "sha256": "4036a4ed6bfba90de8b2ebc6244f83e75242ac642496fe6617ca397b453ada1e"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/secure_courier/env.py",
+    "sha256": "bfe0a44c211a20e00f0001b64327665b7b2e5ad3b5ff06a91e973913e56a2591"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/secure_courier/task_graph.py",
+    "sha256": "3b44e1e1c2bd90e9cdb8cc7e50da52c11313d082e2d65b379b61d009206d7c0d"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/secure_courier/task_graph_variants.py",
+    "sha256": "6aabd43ffa3b070986134e83eb09c3c2006a90d81e321865e8bbf587d75db719"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/secure_courier/state.py",
+    "sha256": "8293a29256df578cc69df531685706bcbd664d57de7a551fc05e2afcc3b20ebe"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/secure_courier/__init__.py",
+    "sha256": "9d8a6825dacc8578c4dd77724e226f4b100193b91b025ccae57d51b1cdebf624"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/secure_courier/oracle.py",
+    "sha256": "0824a66e16b66424f816ed3d336fe6b7b1ebc5ef8c2b0414717b902c4e2ba4ad"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/agents/actor.py",
+    "sha256": "f13e45d405443e450e9ccba3554a73d2548b4ccda9e7d5589096622840e48ded"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/agents/critic.py",
+    "sha256": "c44784177d619d0716c10d34f6ac59c785e4863281d3f4705473109be04e707f"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/agents/checkpoint.py",
+    "sha256": "f6fba4eb296b3af1ec7d3a6e524ecfcc5f00fa4aaaba5dd1ddb0f82869c53aaa"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/agents/text_encoder.py",
+    "sha256": "48245475b092c96a372ad46f9810fa86ce255bc5d95304ae58b58453d91de827"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/agents/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/diy_task_set/agents/awac.py",
+    "sha256": "2c7a4e116ccdfcb2de5f6ffbf74c93659c3cc0c0b01919986ed17cffa79143a7"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/pdr/__init__.py",
+    "sha256": "89486624538e677eaa105296c2e61c883b0e21b01b421c343219b6a9d2acaf94"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/pdr/projection/advantage.py",
+    "sha256": "4c7bb8cccf441eca87672f24575d86273c5aef3ae07f7968bae39689167c6e06"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/pdr/projection/__init__.py",
+    "sha256": "85045ddb3828e23bd539bb3ad6eb23d61cf3fa5a70843815b5d140690f13b75d"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/pdr/masks/action_mask.py",
+    "sha256": "9bcfc543df79c6ba27ad1f8f17149b4ed9a72640b482106e9f7e0de035811dca"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/pdr/masks/__init__.py",
+    "sha256": "6d49fbc94a708dc8f3f6d2a74b1d4be204bd5c7f787864e70d97c494a92c1df8"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/pdr/adapters/__init__.py",
+    "sha256": "06ef595724905e4c9644582b01bf7da3daa62241422aec1383217afe68b2b8df"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/vendor/pdr/adapters/awac.py",
+    "sha256": "1fc4203aae1d2996c3117a257275f395c604d1c67805585b5aabc34d0fe94a66"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/legacy_reference/run_stage_n_b.py",
+    "sha256": "3da2d4cdfc0e39413caf1c5ad4ee3bf27c9c37a9868c58e947d01079a44a8caa"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/legacy_reference/run_phase1.py",
+    "sha256": "6db4e469db236b7d2d6cb2154b1bfe684c8aee9cccb4e4aaa6b4759de439e2ac"
+  },
+  {
+    "path": "src/releases/SecureCourier/legacy/parent/src/legacy_reference/run_m5.py",
+    "sha256": "34eae155b73209a2a880e342e875d57e5790422389873194ad7b1749a46fe230"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/README.md",
+    "sha256": "c9b2f45c8bdfbdcdcfa991c761ff3d6ed570ad806bb21bcab9012550d4c03827"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/requirements.txt",
+    "sha256": "0e8ac2180e8227dbb6ba1c7e7ced83b82e99c52fadd7135b9fb58db641fd4dc7"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/src/priority_sampling.py",
+    "sha256": "83dcddba55924ab4e113fef3e6e2435b3a6d5a32fdc5400af869421788c8a214"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/src/common.py",
+    "sha256": "c0488d09089e3ae855abf1c600b071187239870c906f51e7d002365b38e7e675"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/src/hypotheses.py",
+    "sha256": "05f6eda3b3c1c8eec141f38d64c7a64286f333d65cbae0d6559a77bd775e6240"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/src/planning.py",
+    "sha256": "b4fa157d3b4f4281c8f484e8249450668aec90a9fcb0d8130d56c559ca77d8b9"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/src/learner.py",
+    "sha256": "954c2f8648ad65ba4ed076ad9b49641336ed798f6befe07f57c35f2707f33809"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/src/planning.cpp",
+    "sha256": "e44c6a9411e2d1ee69b8dd63e5bb1a07f2b2a827c2c21f0b79b695607457ed00"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/src/baselines.py",
+    "sha256": "aa544eb39ce342310fe41c94e31d9a94ae96125f5727f2a2b7d56415a2b30f34"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/scripts/test_matrix.py",
+    "sha256": "3377764c44e8ac37e3cb576699c87fb4633d0f8cf1299eea6f766e0a55d9cc24"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/scripts/reproduce.py",
+    "sha256": "ca046e21f77b1234f544b6db72e8b6a9bd57fd98af90945ca1ba9d2355ff6ac3"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/scripts/verify.py",
+    "sha256": "5d481598c4afaa52252e4130f7b238398cc97a2d432afe3d9c1f4b7238c4089b"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/scripts/build.py",
+    "sha256": "9aba5b7bd9000887f23314ae612524221bd877aedf00e47cd8ae8f9e6c1896f9"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/scripts/aggregate.py",
+    "sha256": "1bc22ba5f02b192975be495319aed130bddab6bba71210cbe005d616fc6aa53f"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/vendor/run_study.py",
+    "sha256": "1b4b19cebf8e2948b7f76823bb74f31b8ad6efffb0b3fe1d01fab832fd1134ba"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/vendor/minigrid_loca_core.py",
+    "sha256": "d37734bfdf7b402d44d1b5b8d559cd1d72ca34b71a2239fac170b96af625896a"
+  },
+  {
+    "path": "src/releases/MiniGridLoCA/vendor/loca_neural.py",
+    "sha256": "0389417bccf5d854234cd93ec99872ed8cc948baff3bbb43c3dc8913029cf2fe"
+  }
+]

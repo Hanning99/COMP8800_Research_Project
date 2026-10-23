@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "All 1640 primary run mappings; saved checkpoint/input/curve paths present, supplied content hashes agree with freshly archived content. This is not a training rerun.",
+  "benchmarks": [
+    {
+      "benchmark": "KeyCorridor",
+      "run_records": 640,
+      "run_input_path_checks": 2840
+    },
+    {
+      "benchmark": "MiniGridLoCA",
+      "run_records": 480,
+      "run_input_path_checks": 2520
+    },
+    {
+      "benchmark": "DeepSea",
+      "run_records": 520,
+      "run_input_path_checks": 5200
+    }
+  ],
+  "issues": []
+}

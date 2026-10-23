@@ -1,0 +1,33 @@
+N,method,n,actor,recipe,condition
+10,TD,20,AWAC,"{""gain"": 8, ""id"": ""TD_G8"", ""method"": ""TD""}",null
+10,PER,20,AWAC,"{""gain"": 8, ""id"": ""PER_G8"", ""method"": ""PER""}",null
+10,DISCOR,20,AWAC,"{""gain"": 8, ""id"": ""DISCOR_G8"", ""method"": ""DISCOR""}",null
+10,EXTRA_TD,20,AWAC,"{""gain"": 8, ""id"": ""EXTRA_TD_G8"", ""method"": ""EXTRA_TD""}",null
+10,IQL,20,IQL,"{""expectile"": 0.9, ""id"": ""IQL_T90_B30"", ""inverse_temperature"": 30.0, ""method"": ""IQL""}",null
+10,CQL,20,SAC,"{""conservatism"": 0.01, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.01_E0.001"", ""method"": ""CQL""}","{""actor"": ""SAC"", ""id"": ""LIVE_SAC"", ""source"": ""LIVE""}"
+10,PS,20,AWAC,"{""backups"": 2048, ""gain"": 8, ""id"": ""PS_B2048_G8"", ""method"": ""PS""}",null
+10,OURS,20,SAC,"{""conservatism"": 0.01, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.01_E0.001"", ""method"": ""CQL""}","{""actor"": ""SAC"", ""alpha"": 1, ""beta"": 32, ""id"": ""PDR_SAC_A1_B32"", ""source"": ""PDR""}"
+20,TD,19,AWAC,"{""gain"": 8, ""id"": ""TD_G8"", ""method"": ""TD""}",null
+20,PER,19,AWAC,"{""gain"": 8, ""id"": ""PER_G8"", ""method"": ""PER""}",null
+20,DISCOR,19,AWAC,"{""gain"": 8, ""id"": ""DISCOR_G8"", ""method"": ""DISCOR""}",null
+20,EXTRA_TD,19,AWAC,"{""gain"": 8, ""id"": ""EXTRA_TD_G8"", ""method"": ""EXTRA_TD""}",null
+20,IQL,19,IQL,"{""expectile"": 0.9, ""id"": ""IQL_T90_B30"", ""inverse_temperature"": 30.0, ""method"": ""IQL""}",null
+20,CQL,19,SAC,"{""conservatism"": 0.1, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.1_E0.001"", ""method"": ""CQL""}","{""actor"": ""SAC"", ""id"": ""LIVE_SAC"", ""source"": ""LIVE""}"
+20,PS,19,AWAC,"{""backups"": 64, ""gain"": 8, ""id"": ""PS_B64_G8"", ""method"": ""PS""}",null
+20,OURS,19,SAC,"{""conservatism"": 0.1, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.1_E0.001"", ""method"": ""CQL""}","{""actor"": ""SAC"", ""alpha"": 1, ""beta"": 32, ""id"": ""PDR_SAC_A1_B32"", ""source"": ""PDR""}"
+30,TD,13,AWAC,"{""gain"": 8, ""id"": ""TD_G8"", ""method"": ""TD""}",null
+30,PER,13,AWAC,"{""gain"": 8, ""id"": ""PER_G8"", ""method"": ""PER""}",null
+30,DISCOR,13,AWAC,"{""gain"": 8, ""id"": ""DISCOR_G8"", ""method"": ""DISCOR""}",null
+30,EXTRA_TD,13,AWAC,"{""gain"": 8, ""id"": ""EXTRA_TD_G8"", ""method"": ""EXTRA_TD""}",null
+30,IQL,13,IQL,"{""expectile"": 0.9, ""id"": ""IQL_T90_B30"", ""inverse_temperature"": 30.0, ""method"": ""IQL""}",null
+30,CQL,13,SAC,"{""conservatism"": 0.1, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.1_E0.001"", ""method"": ""CQL""}","{""actor"": ""SAC"", ""id"": ""LIVE_SAC"", ""source"": ""LIVE""}"
+30,PS,13,AWAC,"{""backups"": 64, ""gain"": 8, ""id"": ""PS_B64_G8"", ""method"": ""PS""}",null
+30,OURS,13,SAC,"{""conservatism"": 0.1, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.1_E0.001"", ""method"": ""CQL""}","{""actor"": ""SAC"", ""alpha"": 1, ""beta"": 32, ""id"": ""PDR_SAC_A1_B32"", ""source"": ""PDR""}"
+40,TD,13,AWAC,"{""gain"": 8, ""id"": ""TD_G8"", ""method"": ""TD""}",null
+40,PER,13,AWAC,"{""gain"": 8, ""id"": ""PER_G8"", ""method"": ""PER""}",null
+40,DISCOR,13,AWAC,"{""gain"": 8, ""id"": ""DISCOR_G8"", ""method"": ""DISCOR""}",null
+40,EXTRA_TD,13,AWAC,"{""gain"": 8, ""id"": ""EXTRA_TD_G8"", ""method"": ""EXTRA_TD""}",null
+40,IQL,13,IQL,"{""expectile"": 0.9, ""id"": ""IQL_T90_B30"", ""inverse_temperature"": 30.0, ""method"": ""IQL""}",null
+40,CQL,13,SAC,"{""conservatism"": 0.1, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.1_E0.001"", ""method"": ""CQL""}",null
+40,PS,13,AWAC,"{""backups"": 64, ""gain"": 8, ""id"": ""PS_B64_G8"", ""method"": ""PS""}",null
+40,OURS,13,SAC,"{""conservatism"": 0.1, ""entropy_temperature"": 0.001, ""id"": ""CQL_C0.1_E0.001"", ""method"": ""CQL""}","{""actor"": ""SAC"", ""alpha"": 1, ""beta"": 32, ""id"": ""PDR_SAC_A1_B32"", ""source"": ""PDR""}"

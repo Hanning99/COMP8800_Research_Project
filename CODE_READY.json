@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "four complete benchmark packages",
+  "source_files_checked": 135,
+  "checkpoint_paths": 71343,
+  "fresh_final_actor_evaluations": {
+    "DeepSea": 520,
+    "MiniGridLoCA": 480,
+    "KeyCorridor_representative": 32
+  },
+  "fresh_SecureCourier_checkpoint_observations": 18,
+  "checkpoint_publication": "pending final shard verification/upload",
+  "repositories_remain_private": true
+}

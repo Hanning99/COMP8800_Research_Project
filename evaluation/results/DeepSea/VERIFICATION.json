@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "raw_curves": 520,
+  "paired_seeds": {
+    "10": 20,
+    "20": 19,
+    "30": 13,
+    "40": 13
+  },
+  "max_score_error": 1.1102230246251565e-16,
+  "statistics_max_errors": {
+    "N_method_update/mean": 1.1102230246251565e-16,
+    "N_method_update/ci_low": 1.1102230246251565e-16,
+    "N_method_update/ci_high": 1.1102230246251565e-16,
+    "N_method/early_mean": 1.1102230246251565e-16,
+    "N_method/early_ci_low": 1.1102230246251565e-16,
+    "N_method/early_ci_high": 1.1102230246251565e-16,
+    "N_method/final_mean": 1.1102230246251565e-16
+  },
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260925,
+  "early": "trapezoidal mean return, updates 0\u20132048",
+  "full": "trapezoidal mean return, updates 0\u20138192",
+  "final": "expected return at update 8192"
+}

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.pkl
+*.parquet
+*.so
+*.sqlite*
+*.zst
+*.pack
+checkpoints/local/
+work/
+outputs/

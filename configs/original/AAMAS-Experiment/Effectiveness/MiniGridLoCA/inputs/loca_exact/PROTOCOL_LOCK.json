@@ -1,0 +1,189 @@
+{
+  "actor_learning_rate": 0.001,
+  "arms": [
+    "A0_STANDARD_TD",
+    "A1_STATIC_EXACT_QOLD",
+    "A2_FRESH_GENERALIZED_PDR"
+  ],
+  "artifact_version": "v6_preconfirmatory_final",
+  "awac_beta": 0.25,
+  "awac_weight_clip": 20.0,
+  "backbones": [
+    "AWAC",
+    "SAC",
+    "EXPECTED_SARSA_QAC"
+  ],
+  "batch_size": 128,
+  "checkpoints": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96,
+    128,
+    192,
+    256,
+    384,
+    512,
+    768,
+    1024,
+    1536,
+    2048,
+    3072,
+    4096
+  ],
+  "confirmatory_outcomes_observed_at_lock": false,
+  "confirmatory_seeds": [
+    3018699366,
+    2054473730,
+    3198001916,
+    84293442,
+    3102545030,
+    1758695925,
+    220188094,
+    2696879755,
+    1023406708,
+    1546346813,
+    3211133255,
+    284350422,
+    2608041496,
+    1609544233,
+    3806931080,
+    1690262443,
+    437698333,
+    1278450949,
+    4134291853,
+    1864939308
+  ],
+  "corpus": {
+    "full_legal_action_closure": true,
+    "immutable": true,
+    "one_row_per_nonterminal_state_legal_action": true,
+    "online_rows": false,
+    "phase_2_local_reward_rows_replace_phase_1_stale_rows": true
+  },
+  "correctness_tolerances": {
+    "actor_gradient_cosine_min": 0.999999,
+    "closure": 1.0,
+    "corrected_q_max_abs_error": 1e-09,
+    "dp_bellman_residual": 1e-10,
+    "dropped_policy_mass": 0.0,
+    "pdr_residual": 1e-10
+  },
+  "critic_learning_rate": 0.001,
+  "development_results_excluded": true,
+  "early_auc_end": 1024,
+  "engineering_seeds": [
+    1882852668,
+    213639770,
+    1060620387
+  ],
+  "environment": {
+    "actions": [
+      "left",
+      "right",
+      "forward"
+    ],
+    "discount": 0.99,
+    "environment_observation": "64x64 RGB full-grid image",
+    "grid_size": 8,
+    "learner_input": "exact Markov state id (perception-controlled primary lane)",
+    "max_episode_steps": 100,
+    "name": "MiniGridLoCA-8x8",
+    "state_count_including_terminals": 256,
+    "t1": [
+      0,
+      0
+    ],
+    "t1_zone": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "t2": [
+      7,
+      7
+    ],
+    "task_a_rewards": {
+      "T1": 4.0,
+      "T2": 2.0
+    },
+    "task_b_rewards": {
+      "T1": 1.0,
+      "T2": 2.0
+    }
+  },
+  "execution_code_hashes": {
+    "src/analyze.py": "97b47a31ca7c4bc4599c50af157e0b10e86da9477661e788080029280cdfe233",
+    "src/launch_matrix.py": "07938017364cd24d98936c3f6d35db441dc6749e4d06d971a1693af02bfdbf82",
+    "src/minigrid_loca_core.py": "d37734bfdf7b402d44d1b5b8d559cd1d72ca34b71a2239fac170b96af625896a",
+    "src/preconfirmatory_gate.py": "4158848afb740cfc7217be9ad7b2c572513518cf868cdba77678f463a5a128e2",
+    "src/run_study.py": "206f54a7a678e6bc18088798fec6bc4ae59ab3cbb31e8be7a5bac2e4a75930e5",
+    "tests/test_minigrid_loca_core.py": "2e4015a8393757adb72f26f2001187fb968c55558c636b6060f0f7627ea97aeb"
+  },
+  "experiment": "MINIGRID_LOCA_THREE_BACKBONE_GENERALIZED_PDR_CONFIRMATORY",
+  "gpu_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "learner_cycles": 4096,
+  "lock_timestamp_utc": "2026-09-03T02:14:59.945790+00:00",
+  "master_seed": 20260904,
+  "official_reference": {
+    "official_repo": "https://github.com/chandar-lab/LoCA2",
+    "paper": "https://proceedings.mlr.press/v232/rahimi-kalahroudi23a/rahimi-kalahroudi23a.pdf",
+    "vendor_commit": "27a88376463e8752154a1326a4cc7a03785ddc2c"
+  },
+  "phase2_actor_optimizer_state": "fresh_zero_state_for_all_arms_after_supervised_phase1_acquisition",
+  "preconfirmatory_gate_report_sha256": "e349d90a9103c89d4071df8d498a3cf869de723f203e11ce0e6916e795f94f8c",
+  "pretraining": {
+    "actor_mean_absolute_probability_error_gate": 0.02,
+    "actor_steps_max": 8000,
+    "critic_normalized_mae_gate": 0.02,
+    "critic_steps_max": 6000,
+    "task_a_policy_optimality_ratio_gate": 0.95
+  },
+  "runtime_note": "GPU 4 was already occupied at the final engineering gate; execution placement is non-scientific and all learner semantics remain unchanged.",
+  "sac_alpha": 0.001,
+  "sac_alpha_release_rule": {
+    "lhs_upper_bound": 0.10986122886681096,
+    "rationale": "Prevent the maximum infinite-horizon entropy annuity from dominating the smallest terminal reward; selected from reward scale before confirmatory outcomes, not from an A2 effect.",
+    "rhs": 0.125,
+    "rule": "alpha * log(number_of_actions) / (1 - gamma) <= 0.125 * minimum_positive_task_b_terminal_reward"
+  },
+  "seed_overlap_audit": {
+    "overlap": [],
+    "passed": true
+  },
+  "statistics": {
+    "bootstrap_repetitions": 10000,
+    "confidence_level": 0.95,
+    "primary_contrasts": [
+      "A2-A0",
+      "A2-A1"
+    ],
+    "secondary_contrast": "A1-A0",
+    "unit": "paired_seed"
+  },
+  "status": "LOCKED_BEFORE_CONFIRMATORY_OUTCOMES",
+  "target_polyak_tau": 0.02
+}

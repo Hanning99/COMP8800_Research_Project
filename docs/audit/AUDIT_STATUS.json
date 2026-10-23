@@ -1,0 +1,11 @@
+{
+  "pdf_sha256": "c927cebe5e40336a9df4f94fd407cb033842880a6cdb5f7ff44da69e310c2c43",
+  "pdf_pages": 134,
+  "figures": 63,
+  "tables": 41,
+  "package_units": 30,
+  "experiment_families": 27,
+  "count_definition": "Packaging-level experiment families, not independent seed cohorts, individual ablations or run count; 3 support/derived units excluded.",
+  "unresolved_floats": [],
+  "note": "Source association and existing documentation audited; hashes of all checkpoints and relocated runs still pending. No experiment package is certified by this inventory."
+}

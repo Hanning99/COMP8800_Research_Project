@@ -1,0 +1,61 @@
+{
+  "cell": {
+    "id": "DeepSea_N30_exact_AWAC",
+    "family": "DeepSea",
+    "N": 30,
+    "reference": "exact",
+    "backbone": "AWAC",
+    "updates": 8192,
+    "seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370,
+      897925774,
+      1482992932,
+      455479392,
+      437841576
+    ],
+    "validation_seeds": [
+      697213970,
+      1049202216,
+      1879683417,
+      1199701853,
+      1405763640,
+      1580538728,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      187243630
+    ],
+    "preview_seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ]
+  },
+  "seed": 1580538728,
+  "recipe": {
+    "id": "PS_B64_G8",
+    "method": "PS",
+    "backups": 64,
+    "gain": 8
+  },
+  "initial_source": "/data3/hanning/sota/ours_50seeds_20260928/new/DeepSea_N30_exact_AWAC/seed_1580538728/OURS/INITIAL.pt",
+  "initial_source_sha256": "5354c49b6c24aed6fbc5a85149d58b3c37a23fc1202e9255d5e962b84d4e2094",
+  "schedule_sha256": "6eeb47203c1bb898c93359247e330ffedc205e395d4e5016114aa32bdbf686ba",
+  "inputs": {
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_1580538728/COMMON_START.pt": "9d47884cf5a4752e329b585ccecd2d01564a8190d3343a638ceb70ad5689071a",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_1580538728/graph.npz": "0e6a38ea2e820d39c0f39202c7162f0384d0430d9b7dee6cbccddca16c307a15",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_1580538728/schedule.npz": "81b57a266f29ebd1b791e7231f5d88c0779adc3e43a1281ce3b8d481689f9acb",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_1580538728/historical_rows.parquet": "eef7be30deb19a044c837fee5060bf738ab839acd5f55cc10b1ec313c0462cce",
+    "/data3/hanning/sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_1580538728/support_rows.parquet": "c5fbc24214e4588c11af2466afe9f8b818ee90b799030c6ba6ffc73930134a72"
+  },
+  "common_initial_bitwise_matched": true
+}
