@@ -1,7 +1,0 @@
-{"estimated_restored_bytes": 21000, "files": 2, "checkpoint_candidate_paths": 2, "unique_objects": 1, "logical_bytes": 42000, "unique_bytes": 21000, "links": 2}
-PASS: verify
-{"estimated_restored_bytes": 21000, "files": 2, "checkpoint_candidate_paths": 2, "unique_objects": 1, "logical_bytes": 42000, "unique_bytes": 21000, "links": 2}
-PASS: restore
-{"estimated_restored_bytes": 21000, "files": 2, "checkpoint_candidate_paths": 2, "unique_objects": 1, "logical_bytes": 42000, "unique_bytes": 21000, "links": 1}
-PASS: restore
-PASS: bounded shard reads, hashes, full/subset link closure, independent restoration and metadata
