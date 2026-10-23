@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 def main():
-    forbidden=['/data3/hanning/Reproduce','/data3/hanning/autoresearch/SecureCourier-Mechanism-20260902']
+    forbidden=['Reproduce','autoresearch/SecureCourier-Mechanism-20260902']
     assert not any(Path(p).exists() for p in forbidden),'Original sources must not be mounted'
     commands=[
         ['scripts/export_csv.py'],

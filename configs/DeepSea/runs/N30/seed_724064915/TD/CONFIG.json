@@ -1,0 +1,60 @@
+{
+  "cell": {
+    "id": "DeepSea_N30_exact_AWAC",
+    "family": "DeepSea",
+    "N": 30,
+    "reference": "exact",
+    "backbone": "AWAC",
+    "updates": 8192,
+    "seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370,
+      897925774,
+      1482992932,
+      455479392,
+      437841576
+    ],
+    "validation_seeds": [
+      697213970,
+      1049202216,
+      1879683417,
+      1199701853,
+      1405763640,
+      1580538728,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      187243630
+    ],
+    "preview_seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ]
+  },
+  "seed": 724064915,
+  "recipe": {
+    "id": "TD_G8",
+    "method": "TD",
+    "gain": 8
+  },
+  "initial_source": "sota/ours_50seeds_20260928/new/DeepSea_N30_exact_AWAC/seed_724064915/OURS/INITIAL.pt",
+  "initial_source_sha256": "a8839596bd82e36e258fc4807a269a36efc4d723a83bec6d82ce740aa5ed3dd0",
+  "schedule_sha256": "08aece73c9325e503d78a02645ea43b7d22fda9f056752005127fe129d18ee8e",
+  "inputs": {
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_724064915/COMMON_START.pt": "d40212a39a82f296c2a6eb3d1439d034ff246956d3ea465f2c43003b2882b172",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_724064915/graph.npz": "6100773f34776c23b911af2e78a4b89830c19dc090f59661eb352cd05ff88d22",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_724064915/schedule.npz": "9dbd48f25c40767b2e53a6e367f702d717c666c51e8817a03c9b6cf59084d389",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_724064915/historical_rows.parquet": "d5edebc9709392688b21972136b311f74c38812274373fed377ac9ddad6ef0ac",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_724064915/support_rows.parquet": "dcb146170b9b36a05307b179e5e53ee1b9ec35c3c59eac9d2262c7815a23621e"
+  },
+  "common_initial_bitwise_matched": true
+}

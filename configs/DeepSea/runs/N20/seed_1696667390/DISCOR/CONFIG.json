@@ -1,0 +1,67 @@
+{
+  "cell": {
+    "id": "DeepSea_N20_exact_AWAC",
+    "family": "DeepSea",
+    "N": 20,
+    "reference": "exact",
+    "backbone": "AWAC",
+    "updates": 8192,
+    "seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370,
+      897925774,
+      1482992932,
+      704396142,
+      455479392,
+      437841576
+    ],
+    "validation_seeds": [
+      1746562410,
+      697213970,
+      1049202216,
+      1879683417,
+      345375013,
+      1199701853,
+      1696667390,
+      630094888,
+      1405763640,
+      1580538728,
+      610034613,
+      273531614,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      81607656,
+      187243630
+    ],
+    "preview_seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ]
+  },
+  "seed": 1696667390,
+  "recipe": {
+    "id": "DISCOR_G8",
+    "method": "DISCOR",
+    "gain": 8
+  },
+  "initial_source": "sota/ours_50seeds_20260928/new/DeepSea_N20_exact_AWAC/seed_1696667390/OURS/INITIAL.pt",
+  "initial_source_sha256": "b46f31a346afadb1344213793477c4577d24515428d106a783e03e828aac5b86",
+  "schedule_sha256": "1bed2347cf385770f63d33abb5e1dd09be1dfe528561e3f80b29671de65a8096",
+  "inputs": {
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N20/seed_1696667390/COMMON_START.pt": "27baa2915b8d93265deddf11bf42efb77540a1c1af363dfd7560d0e366b1c5a7",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N20/seed_1696667390/graph.npz": "51a2de5c65c034feb35883983a1bb9c2a0ed3a573ef1dfe4779b8fd3065bd162",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N20/seed_1696667390/schedule.npz": "df200b036e585cf7e559a322240610893ca8a9acbf84713fdb61a6d9f2fe14cd",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N20/seed_1696667390/historical_rows.parquet": "5fece758151569fd3134e4103aa57b2dcf080c0cdc6ca86cebb15b1de35fd262",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N20/seed_1696667390/support_rows.parquet": "efaf79d3c83b15f6f804df20846789c8d75fc42e3c46d05bd6defb96cc6b3d6d"
+  },
+  "common_initial_bitwise_matched": true
+}

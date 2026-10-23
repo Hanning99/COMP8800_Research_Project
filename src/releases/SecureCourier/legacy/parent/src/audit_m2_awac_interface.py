@@ -20,8 +20,8 @@ from pathlib import Path
 import torch
 
 
-DIY = Path("/data3/hanning/autoresearch/diy_task_set")
-PDR = Path("/data3/hanning/autoresearch/PDR")
+DIY = Path("autoresearch/diy_task_set")
+PDR = Path("autoresearch/PDR")
 sys.path[:0] = [str(DIY), str(PDR)]
 
 from agents.actor import Actor

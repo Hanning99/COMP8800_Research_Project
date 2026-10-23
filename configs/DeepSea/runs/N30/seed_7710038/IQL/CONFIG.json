@@ -1,0 +1,61 @@
+{
+  "cell": {
+    "id": "DeepSea_N30_exact_AWAC",
+    "family": "DeepSea",
+    "N": 30,
+    "reference": "exact",
+    "backbone": "AWAC",
+    "updates": 8192,
+    "seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370,
+      897925774,
+      1482992932,
+      455479392,
+      437841576
+    ],
+    "validation_seeds": [
+      697213970,
+      1049202216,
+      1879683417,
+      1199701853,
+      1405763640,
+      1580538728,
+      464440240,
+      1492186573,
+      7710038,
+      790831345,
+      816616599,
+      724064915,
+      187243630
+    ],
+    "preview_seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370
+    ]
+  },
+  "seed": 7710038,
+  "recipe": {
+    "id": "IQL_T90_B30",
+    "method": "IQL",
+    "expectile": 0.9,
+    "inverse_temperature": 30.0
+  },
+  "initial_source": "sota/ours_50seeds_20260928/new/DeepSea_N30_exact_AWAC/seed_7710038/OURS/INITIAL.pt",
+  "initial_source_sha256": "74247f7b2a7bde39d36c63f49168c357bf47145911b8c72c891e35388550d9b9",
+  "schedule_sha256": "69bb9526ce3b1805c63115656ac7ecb16d5051cfe05c1ebfff6e603fca505949",
+  "inputs": {
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_7710038/COMMON_START.pt": "2ede11c7fab9fd2f9c2f46a4ebff8c55c44dc19e199821cf17281bacdd1a90f0",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_7710038/graph.npz": "e670ca96b666b35b0adc6518603b4abb0efb4880bdec6a0fa90c22e4054a10bf",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_7710038/schedule.npz": "d251c653ba560fa5a0500964c816ce258c3322224ccd2a542f896585d355c760",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_7710038/historical_rows.parquet": "0d352a965376b7e6e709f7644b3646e0589115ae77468ffeb64a98ac2e0b248c",
+    "sota/deepsea_all_baselines_20260929/inputs/deepsea/worlds/N30/seed_7710038/support_rows.parquet": "7a38a63d0371fc76750ea4caec255b450490f64744f40db00fa94168b05d2074"
+  },
+  "common_initial_bitwise_matched": true
+}

@@ -12,8 +12,8 @@ import numpy as np
 import torch
 
 
-PARENT = Path("/data3/hanning/autoresearch/SecureCourier-Mechanism-20260902")
-LEGACY = Path("/data3/hanning/autoresearch/PDR-AWAC-Advanced")
+PARENT = Path("autoresearch/SecureCourier-Mechanism-20260902")
+LEGACY = Path("autoresearch/PDR-AWAC-Advanced")
 GAMMA = 0.97
 MAX_STEPS = 40
 OBS_MAX = 128

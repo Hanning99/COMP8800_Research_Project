@@ -1,0 +1,72 @@
+{
+  "purpose": "Complete the new-seed DeepSea comparison with the same seven baseline families used in KeyCorridor.",
+  "status": "CONFIGURATIONS_FROZEN_BEFORE_ADDED_BASELINE_OUTCOMES",
+  "selection": "Per-size baseline recipes copied from original development selection; PDR_SAC_A1_B32 frozen in prior WINNERS.json. No tuning on these validation seeds.",
+  "cohort": "Exactly the 52 eligible predeclared new starts of the completed CQL/PDR validation (20/19/13). All eight originally unavailable starts retained in the record; no replacements.",
+  "unavailable": [
+    {
+      "cell": "DeepSea_N20_exact_AWAC",
+      "seed": 724064915
+    },
+    {
+      "cell": "DeepSea_N30_exact_AWAC",
+      "seed": 1746562410
+    },
+    {
+      "cell": "DeepSea_N30_exact_AWAC",
+      "seed": 345375013
+    },
+    {
+      "cell": "DeepSea_N30_exact_AWAC",
+      "seed": 1696667390
+    },
+    {
+      "cell": "DeepSea_N30_exact_AWAC",
+      "seed": 630094888
+    },
+    {
+      "cell": "DeepSea_N30_exact_AWAC",
+      "seed": 610034613
+    },
+    {
+      "cell": "DeepSea_N30_exact_AWAC",
+      "seed": 273531614
+    },
+    {
+      "cell": "DeepSea_N30_exact_AWAC",
+      "seed": 81607656
+    }
+  ],
+  "new_jobs": 312,
+  "reused_completed_jobs": 104,
+  "methods": [
+    "TD",
+    "PER",
+    "DISCOR",
+    "EXTRA_TD",
+    "IQL",
+    "CQL",
+    "PS",
+    "OURS"
+  ],
+  "updates": 8192,
+  "early_window": 2048,
+  "metric": "Expected return; normalized trapezoidal mean over the complete early window.",
+  "comparison": "Algorithm comparison from common starts, support, replay pools, actor-batch schedules and actor-update budget. Methods retain their own losses; PER resamples critic batches, 8xTD has eight critic updates, PS uses its selected planning budget.",
+  "backbones": "TD/PER/DisCor/8xTD/PS retain their archived AWAC actor; IQL retains its own actor loss; CQL and selected PDR use SAC. PDR shares the CQL critic update rule and uses an exact soft reference. This is not a same-actor-objective ablation.",
+  "preparation": "Reuse original bootstrapped-DQN/LOW-band/distillation input artifacts; do not regenerate starts.",
+  "checkpoints": "Complete initial/final models, targets, optimizers, RNG, replay/planning state; interrupted runs retain resumable progress.",
+  "execution": {
+    "gpus": 8,
+    "workers_per_gpu": 3,
+    "cpu_threads_per_worker": 1,
+    "resource_policy": "Wait for GPUs without foreign compute processes and at least 20 GiB free. Do not stop or modify other jobs."
+  },
+  "sources": {
+    "sota/analysis/SELECTED_CONFIGURATIONS.csv": "2367a1bc560e5697ba18bfc7c9be33177b162c9d2cd1064df66abef272127767",
+    "sota/RECIPES.json": "1ed6ef38a195866ff9948a2ac11cfdf599898982738aa155e8290ee5fa6378c5",
+    "sota/cql_mechanism_20260928/WINNERS.json": "2a176434cd6f000dabbc851fd2d03f7b4364ad5361b6234f28281ae47a2685a8",
+    "sota/cql_mechanism_20260928/PROTOCOL.json": "d9078f4e237662e0292ffec7856faef9d1505161d42bb03c4d26f47c3f4d4de9",
+    "sota/cql_mechanism_20260928/VALIDATION_WAIT.json": "e76a77a5adfba12509f30e55ef338a121464962477c6096cce484b100c350ffd"
+  }
+}

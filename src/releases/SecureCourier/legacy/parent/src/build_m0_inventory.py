@@ -36,50 +36,50 @@ LONG_INTEGER = re.compile(r"(?<![0-9])([0-9]{8,10})(?![0-9])")
 
 
 ROOTS = {
-    "motivation": Path("/data3/hanning/motivation"),
-    "diy_task_set": Path("/data3/hanning/autoresearch/diy_task_set"),
-    "clean_pdr_m5": Path("/data3/hanning/autoresearch/PDR/experiments/m5_securecourier_clean"),
-    "pdr_awac": Path("/data3/hanning/autoresearch/PDR-AWAC"),
-    "pdr_awac_advanced": Path("/data3/hanning/autoresearch/PDR-AWAC-Advanced"),
-    "predict_qnew": Path("/data3/hanning/autoresearch/predict-Qnew"),
+    "motivation": Path("motivation"),
+    "diy_task_set": Path("autoresearch/diy_task_set"),
+    "clean_pdr_m5": Path("autoresearch/PDR/experiments/m5_securecourier_clean"),
+    "pdr_awac": Path("autoresearch/PDR-AWAC"),
+    "pdr_awac_advanced": Path("autoresearch/PDR-AWAC-Advanced"),
+    "predict_qnew": Path("autoresearch/predict-Qnew"),
     "oracle_bridge": Path(
-        "/data3/hanning/autoresearch/bellman_evaluation_support/"
+        "autoresearch/bellman_evaluation_support/"
         "stage2_rq0_Causal_Bridge"
     ),
-    "critic_lag": Path("/data3/hanning/autoresearch/critic_lag"),
+    "critic_lag": Path("autoresearch/critic_lag"),
 }
 
 
 CRITICAL_FILES = [
-    "/data3/hanning/autoresearch/Experiment/Benchmark/SecureCourier/PLAN.md",
-    "/data3/hanning/motivation/evidence/MANIFEST.md",
-    "/data3/hanning/motivation/evidence/01_policy_value_flip/rq1_confirmatory/confirmatory_matched_summary.json",
-    "/data3/hanning/motivation/evidence/03_repair_condition/support_compute_surface/FINAL_RQ1_REPORT.md",
-    "/data3/hanning/motivation/evidence/04_oracle_benefit/phase_n/PHASE_N_PROTOCOL.md",
-    "/data3/hanning/motivation/evidence/04_oracle_benefit/phase_n/STAGE_N_B_REPORT.md",
-    "/data3/hanning/autoresearch/diy_task_set/AGENTS.md",
-    "/data3/hanning/autoresearch/diy_task_set/configs/secure_courier_v1.yaml",
-    "/data3/hanning/autoresearch/diy_task_set/secure_courier/env.py",
-    "/data3/hanning/autoresearch/diy_task_set/secure_courier/generator.py",
-    "/data3/hanning/autoresearch/diy_task_set/secure_courier/oracle.py",
-    "/data3/hanning/autoresearch/diy_task_set/secure_courier/state.py",
-    "/data3/hanning/autoresearch/diy_task_set/secure_courier/task_graph.py",
-    "/data3/hanning/autoresearch/diy_task_set/agents/actor.py",
-    "/data3/hanning/autoresearch/diy_task_set/agents/critic.py",
-    "/data3/hanning/autoresearch/diy_task_set/agents/awac.py",
-    "/data3/hanning/autoresearch/diy_task_set/agents/checkpoint.py",
-    "/data3/hanning/autoresearch/diy_task_set/capability/evaluate_capability.py",
-    "/data3/hanning/autoresearch/diy_task_set/data/collect_offline.py",
-    "/data3/hanning/autoresearch/diy_task_set/data/schemas.py",
-    "/data3/hanning/autoresearch/diy_task_set/rq1/exact_value_table.py",
-    "/data3/hanning/autoresearch/diy_task_set/scripts/run_phase1.py",
-    "/data3/hanning/autoresearch/diy_task_set/scripts/run_rq3.py",
-    "/data3/hanning/autoresearch/diy_task_set/scripts/run_propagation_audit.py",
-    "/data3/hanning/autoresearch/bellman_evaluation_support/stage2_rq0_Causal_Bridge/phase_n/scripts/audit_stage_n_a_seed.py",
-    "/data3/hanning/autoresearch/bellman_evaluation_support/stage2_rq0_Causal_Bridge/phase_n/scripts/run_stage_n_b.py",
-    "/data3/hanning/autoresearch/PDR/experiments/m5_securecourier_clean/PREREGISTRATION.md",
-    "/data3/hanning/autoresearch/PDR/experiments/m5_securecourier_clean/PREREGISTRATION_LOCK.json",
-    "/data3/hanning/autoresearch/PDR/experiments/m5_securecourier_clean/run_m5.py",
+    "autoresearch/Experiment/Benchmark/SecureCourier/PLAN.md",
+    "motivation/evidence/MANIFEST.md",
+    "motivation/evidence/01_policy_value_flip/rq1_confirmatory/confirmatory_matched_summary.json",
+    "motivation/evidence/03_repair_condition/support_compute_surface/FINAL_RQ1_REPORT.md",
+    "motivation/evidence/04_oracle_benefit/phase_n/PHASE_N_PROTOCOL.md",
+    "motivation/evidence/04_oracle_benefit/phase_n/STAGE_N_B_REPORT.md",
+    "autoresearch/diy_task_set/AGENTS.md",
+    "autoresearch/diy_task_set/configs/secure_courier_v1.yaml",
+    "autoresearch/diy_task_set/secure_courier/env.py",
+    "autoresearch/diy_task_set/secure_courier/generator.py",
+    "autoresearch/diy_task_set/secure_courier/oracle.py",
+    "autoresearch/diy_task_set/secure_courier/state.py",
+    "autoresearch/diy_task_set/secure_courier/task_graph.py",
+    "autoresearch/diy_task_set/agents/actor.py",
+    "autoresearch/diy_task_set/agents/critic.py",
+    "autoresearch/diy_task_set/agents/awac.py",
+    "autoresearch/diy_task_set/agents/checkpoint.py",
+    "autoresearch/diy_task_set/capability/evaluate_capability.py",
+    "autoresearch/diy_task_set/data/collect_offline.py",
+    "autoresearch/diy_task_set/data/schemas.py",
+    "autoresearch/diy_task_set/rq1/exact_value_table.py",
+    "autoresearch/diy_task_set/scripts/run_phase1.py",
+    "autoresearch/diy_task_set/scripts/run_rq3.py",
+    "autoresearch/diy_task_set/scripts/run_propagation_audit.py",
+    "autoresearch/bellman_evaluation_support/stage2_rq0_Causal_Bridge/phase_n/scripts/audit_stage_n_a_seed.py",
+    "autoresearch/bellman_evaluation_support/stage2_rq0_Causal_Bridge/phase_n/scripts/run_stage_n_b.py",
+    "autoresearch/PDR/experiments/m5_securecourier_clean/PREREGISTRATION.md",
+    "autoresearch/PDR/experiments/m5_securecourier_clean/PREREGISTRATION_LOCK.json",
+    "autoresearch/PDR/experiments/m5_securecourier_clean/run_m5.py",
 ]
 
 
@@ -211,7 +211,7 @@ def main() -> None:
     manifests.mkdir(parents=True, exist_ok=True)
 
     associated, long_tokens, scan = scan_legacy()
-    manifest_path = Path("/data3/hanning/motivation/evidence/MANIFEST.md")
+    manifest_path = Path("motivation/evidence/MANIFEST.md")
     copy_map = parse_copy_map(manifest_path)
 
     critical = []
@@ -312,7 +312,7 @@ confirmatory outcomes.
 
 ## Provenance finding
 
-`/data3/hanning/motivation/evidence/MANIFEST.md` explicitly describes the
+`motivation/evidence/MANIFEST.md` explicitly describes the
 motivation tree as copied/reorganized evidence.  Its entries are provenance
 views of legacy runs and are not counted as independent replications.  The
 machine-readable mapping contains {len(copy_map)} declared evidence groups.

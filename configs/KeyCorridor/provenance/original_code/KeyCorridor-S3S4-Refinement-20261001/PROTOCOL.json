@@ -1,0 +1,128 @@
+{
+  "purpose": "Refine alpha/beta around historical optima and assess complete 512-update curves in S3R2/S4R3 neural-reference continuations.",
+  "method": "A_update = alpha A_ref + beta Delta_A; both centered under the current policy; complete AWAC weights detached",
+  "original_study": "Experiment/KeyCorridor-ChangeEmphasis-Tuning-20260930",
+  "cells": [
+    "KeyCorridor_S3R2_neural_AWAC",
+    "KeyCorridor_S4R3_neural_AWAC"
+  ],
+  "grids": {
+    "S3R2": {
+      "alpha": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32
+      ],
+      "beta": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ]
+    },
+    "S4R3": {
+      "alpha": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1,
+        1.25,
+        1.5,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "beta": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        12,
+        16
+      ]
+    }
+  },
+  "controls": "(0,0), (1,1), and positive equal-coefficient controls through (32,32)",
+  "counts": {
+    "KeyCorridor_S3R2_neural_AWAC": 103,
+    "KeyCorridor_S4R3_neural_AWAC": 111
+  },
+  "screening": "Use exactly the five pre-existing hash-selected seed IDs per cell; run every configuration to 512 updates.",
+  "metrics": {
+    "early_mean": "trapezoidal mean success 0..128, original primary metric",
+    "full_mean": "trapezoidal mean success 0..512, additional full-horizon tuning criterion",
+    "final": "success at update 512, additional endpoint tuning criterion"
+  },
+  "promotion": "Union of top 3 early means, top 3 full means, top 2 final scores, historical incumbent, (1,1), and best positive diagonal by early and full means; deduplicate.",
+  "expansion": "Run each promoted configuration on all 20 original paired seeds to update 512; reuse completed screening runs.",
+  "tie_break": "smaller alpha+beta, then alpha, then beta, then ID",
+  "selection": {
+    "early": "best 20-seed early_mean",
+    "full": "best 20-seed full_mean",
+    "final": "best 20-seed final",
+    "joint": "Among settings whose 20-seed early, full and final means are each at least the incumbent, maximize full_mean; retain incumbent if none improves."
+  },
+  "reporting": "Report each objective separately, one constant configuration per complete curve. No checkpoint-wise stitching or seed selection. Preserve old main figures and write separate comparison figures.",
+  "inference": "Expanded development tuning on the original cohorts; bootstrap intervals describe seed variation, not selection-adjusted or held-out inference.",
+  "fixed": {
+    "temperature": 0.3,
+    "weight_cap": 20,
+    "gradient_clip": 5,
+    "actor_lr": 0.0003,
+    "critic_lr": 0.0003,
+    "updates": 512
+  },
+  "unchanged": [
+    "fixed learned reference",
+    "actor/critic architecture",
+    "optimizer/RNG initialization",
+    "recorded replay schedule",
+    "complete differential",
+    "critic TD",
+    "baseline recipes",
+    "evaluation checkpoints"
+  ],
+  "preservation": "Full INITIAL, EARLY and FINAL model/optimizer/RNG checkpoints; all successful, weak and failed candidates retained.",
+  "engineering": "Reproduce archived first-16-update trajectories, detached coefficient decomposition, finite gradients across grid, bitwise save/restore, and incumbent full-curve agreement.",
+  "source_files_sha256": {
+    "src/key_cuda.py": "2db4f2c2d4dc81ccbeeb86479be76f003a7b203316616e23997cb64fb22a409f",
+    "src/common.py": "e34a8c495c1d6b800252086d8d3a6d881f9c5f33b914c937861f8f6a5c1e9a95",
+    "src/hypotheses.py": "05f6eda3b3c1c8eec141f38d64c7a64286f333d65cbae0d6559a77bd775e6240",
+    "src/worker.py": "66b05c07ed0a9314b49ffc254e7d2a879856669bf574b0998004a57486e927b4",
+    "src/learner.py": "f211930b1e8916463eb3a333a3faf4e28bbda42ee5c61cf7bd6e824ce7bf9912",
+    "src/emphasis.py": "3483dc812dd6c3cb73dfeed1bb04e64f4abb857f0ac84636f2987441d6931a65",
+    "vendor/run_study.py": "1b4b19cebf8e2948b7f76823bb74f31b8ad6efffb0b3fe1d01fab832fd1134ba",
+    "vendor/key_exact.py": "c793f8c5a4e05676fd5fa7299455498c3fd2b2f35322ef469c130c0d290beaa9",
+    "vendor/deepsea_experiment.py": "20ce4e1bc186cf38ea15f588c14830537ce208bf75d9146fb0add63b15d663f2",
+    "vendor/run_replication.py": "36c6c11d8ee16876817b88856058e1fa75bdfcf5be1331d81af35eb412606472",
+    "vendor/minigrid_loca_core.py": "d37734bfdf7b402d44d1b5b8d559cd1d72ca34b71a2239fac170b96af625896a",
+    "vendor/loca_neural.py": "0389417bccf5d854234cd93ec99872ed8cc948baff3bbb43c3dc8913029cf2fe"
+  },
+  "archived_table_sha256": {
+    "SUMMARY.csv": "265ddcc0f37b817155a6bfd25a37160e4e4e72e70d24c67e6e8fc6f204a08da9",
+    "CURVE_STATISTICS.csv": "49ca267029d4f0a03d82e551be4808a66c253f4b3059829c2b5b9d1e9829a3d8",
+    "PER_SEED.csv": "9734ad5d8b8dd0f935ff8847ed1b4efe20669b8c32fc5d3cbb22f0450a05e006",
+    "SELECTED_CONFIGURATIONS.csv": "02f4ca64640887df2d47d273bde6dbc1281faf047a5411f94fb7c2e2b8fefb67"
+  },
+  "resource_policy": "sdc1; 8 GPUs with two workers per GPU during search; stop on numerical failure or less than 10 GiB free.",
+  "runtime_scope": "Concurrent search timings, not an isolated computational-cost experiment"
+}

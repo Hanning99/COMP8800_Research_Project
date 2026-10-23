@@ -25,7 +25,7 @@ def main():
   if not (archive/'manifest.sqlite').exists():raise FileNotFoundError('Checkpoint archive not available. Follow checkpoints/README.md or pass --archive /path/to/archive.')
   a.workspace.mkdir(parents=True,exist_ok=True);restored=(a.workspace/f'{a.benchmark}-{stamp}').resolve()
   subprocess.run([sys.executable,str(ROOT/'scripts/checkpoint_archive.py'),'restore','--archive-root',str(archive),'--release',a.benchmark,'--output',str(restored)],check=True)
-  data=restored/'AAMAS-Experiment/Effectiveness'/a.benchmark
+  data=restored/a.benchmark
  if a.benchmark!='SecureCourier' and not (data/'RUNS.json').is_file():raise FileNotFoundError(data/'RUNS.json')
  if a.benchmark=='SecureCourier' and not (data/'provenance/cohort.json').is_file():raise FileNotFoundError(data/'provenance/cohort.json')
  # Check that the numerical code distributed in GitHub matches the restored release.

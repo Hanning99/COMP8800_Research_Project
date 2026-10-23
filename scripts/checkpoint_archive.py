@@ -32,7 +32,7 @@ def main():
  a=ap.parse_args()
  if a.archive_root:ROOT=a.archive_root.resolve()
  prefixes=a.prefix[:]
- if a.release:prefixes.append('AAMAS-Experiment/Effectiveness/'+a.release)
+ if a.release:prefixes.append(a.release)
  db=sqlite3.connect('file:'+str(ROOT/'manifest.sqlite')+'?mode=ro',uri=True)
  if db.execute('PRAGMA integrity_check').fetchone()[0]!='ok':raise RuntimeError('Manifest database is corrupt')
  db.row_factory=sqlite3.Row

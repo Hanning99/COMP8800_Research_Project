@@ -1,0 +1,44 @@
+{
+  "cell": {
+    "id": "DeepSea_N10_exact_AWAC",
+    "family": "DeepSea",
+    "N": 10,
+    "reference": "exact",
+    "backbone": "AWAC",
+    "updates": 8192,
+    "seeds": [
+      1679439173,
+      1947313626,
+      1026132482,
+      1169489539,
+      390445370,
+      897925774,
+      1482992932,
+      704396142,
+      455479392,
+      437841576
+    ]
+  },
+  "seed": 187243630,
+  "condition": {
+    "id": "LIVE_SAC",
+    "source": "LIVE",
+    "actor": "SAC"
+  },
+  "cql_recipe": {
+    "id": "CQL_C0.01_E0.001",
+    "method": "CQL",
+    "conservatism": 0.01,
+    "entropy_temperature": 0.001
+  },
+  "initial_source": "sota/ours_50seeds_20260928/new/DeepSea_N10_exact_AWAC/seed_187243630/OURS/INITIAL.pt",
+  "initial_source_sha256": "f605b5afcdab8a2b6fd693414b14cedd6bf8f8638c2709750f3c3685b902a6b7",
+  "schedule_sha256": "a8325104cceb6cca4f094c5ec73f22e65cd64887edfada4069a1d2d501c5cf47",
+  "inputs": {
+    "sota/cql_mechanism_20260928/inputs/deepsea/worlds/N10/seed_187243630/COMMON_START.pt": "910c561c765cddfc24d7a1a1dd09d643af5b228b71617ad0f1275c836adf3bd8",
+    "sota/cql_mechanism_20260928/inputs/deepsea/worlds/N10/seed_187243630/graph.npz": "57da15ad0350eb177d6fd4f72937ceede5fa9a25a2a2d45e341e5fdb7118bb61",
+    "sota/cql_mechanism_20260928/inputs/deepsea/worlds/N10/seed_187243630/schedule.npz": "c6f6b718b18ce0b2f5deee49c1f3369b27dae08ecfb44c656a0e5f57f87f6cc9",
+    "sota/cql_mechanism_20260928/inputs/deepsea/worlds/N10/seed_187243630/historical_rows.parquet": "8c4a0893712be544d363d42a962423d61480e67104bb53c66001a67f1abc8ea7",
+    "sota/cql_mechanism_20260928/inputs/deepsea/worlds/N10/seed_187243630/support_rows.parquet": "15dc59a4601c32391c9a08da129c74e85b4470d9db4691c70ca0443496e2c401"
+  }
+}
