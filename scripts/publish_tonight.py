@@ -22,6 +22,11 @@ def github_token():
   fields=dict(line.split('=',1) for line in result.stdout.splitlines() if '=' in line)
   return fields.get('password')
  return None
+def replace_copy(source,destination,**kwargs):
+ destination=Path(destination)
+ if os.path.lexists(destination):destination.unlink()
+ return shutil.copy2(source,destination,**kwargs)
+
 def copy_code(checkout):
  for item in ROOT.iterdir():
   if item.name in {'.git','.venv','__pycache__','work','outputs'}:continue
@@ -31,8 +36,8 @@ def copy_code(checkout):
     excluded={n for n in names if n in {'.git','.venv','__pycache__','work','outputs'} or n.endswith('.pyc')}
     if Path(directory)==ROOT/'checkpoints' and 'local' in names:excluded.add('local')
     return excluded
-   shutil.copytree(item,dest,dirs_exist_ok=True,ignore=ignored)
-  else:shutil.copy2(item,dest)
+   shutil.copytree(item,dest,dirs_exist_ok=True,ignore=ignored,copy_function=replace_copy)
+  else:replace_copy(item,dest)
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--archive',type=Path,default=BASE/'experiment');p.add_argument('--token-file',type=Path,default=BASE/'.upload_auth/hf_token');a=p.parse_args()
  ready=ROOT/'CODE_READY.json'
