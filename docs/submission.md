@@ -4,6 +4,8 @@ Use the public GitHub repository as the single entry point:
 <https://github.com/Hanning99/COMP8800_Research_Project>.
 Its README links the separate public checkpoint dataset and gives the scene, download, restore and evaluation guide. For Wattle, submit a fixed `/tree/<commit>` link so the reviewed artefact version is unambiguous.
 
+The A1 research poster is available at [`docs/poster/poster-A1.pdf`](poster/poster-A1.pdf) and is previewed on the repository home page.
+
 The submission arrangement follows the supplied ANU Individual Computing Projects marking-guide text: deliver the artefact directly to the supervisor and submit an access link on Wattle. Wattle submission and messages to the supervisor are performed by the author; this package does not send either automatically.
 
 The initial release upload was verified and `PUBLISH_RECEIPT.json` records:

@@ -18,11 +18,18 @@ Hanning Deng · 2026
 
 | Need | Go to |
 |---|---|
+| View / download the A1 project poster | [Poster PDF](docs/poster/poster-A1.pdf) |
 | Browse code, configs and evaluation commands | [Repository contents](#repository-map) |
 | Download benchmark scenes, inputs and checkpoints | [Hugging Face dataset](https://huggingface.co/datasets/denghanning/COMP8800_Research_Project) |
 | Restore one benchmark from the archive | [Download and restore](#download-and-restore-a-benchmark) |
 | Re-evaluate saved actors | [Evaluation commands](#evaluate-saved-checkpoints) |
 | Understand exactly what is included | [Scope and validation](#scope--validation) |
+
+<div align="center">
+<a href="docs/poster/poster-A1.pdf"><img src="assets/poster-preview.jpg" alt="Preview of the A1 COMP8800 research poster; click to open the full-resolution PDF" width="100%"></a>
+
+<sub><a href="docs/poster/poster-A1.pdf">Open the full-resolution A1 poster (PDF)</a></sub>
+</div>
 
 ## At a glance
 
@@ -116,6 +123,8 @@ This release focuses on the four benchmark packages above. It does not include e
 ```text
 README.md                         This overview and quick start
 assets/artifact-banner.svg        Project cover graphic
+assets/poster-preview.jpg         A1 poster preview
+docs/poster/poster-A1.pdf         Full-resolution project poster
 configs/                          Pinned release and experiment recipes
 src/releases/                     Four benchmark implementations and native notes
 scripts/                          Download, restore, evaluate and reproduce commands
