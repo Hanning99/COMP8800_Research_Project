@@ -7,15 +7,15 @@
   "evidence_paper_sha256": "c927cebe5e40336a9df4f94fd407cb033842880a6cdb5f7ff44da69e310c2c43",
   "github": {
     "repository": "https://github.com/Hanning99/COMP8800_Research_Project",
-    "visibility": "private",
+    "visibility": "public",
     "commit": null
   },
   "checkpoints": {
     "repository": "https://huggingface.co/datasets/denghanning/COMP8800_Research_Project",
     "repo_id": "denghanning/COMP8800_Research_Project",
     "repo_type": "dataset",
-    "visibility": "private",
+    "visibility": "public",
     "revision": "a54b7702449746b97071029f0d9b47ca0dce8456"
   },
-  "publication_status": "private dataset remotely verified; source version identified by its Git commit"
+  "publication_status": "public source and dataset; benchmark archive revision pinned and remotely verified"
 }
