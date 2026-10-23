@@ -23,35 +23,23 @@ This repository contains the code and run configurations for the four benchmarks
 
 ## Quick start
 
-**1. Install** (Python 3.10)
-
 ```bash
 python3.10 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt -r requirements-publish.txt
+
+python run.py evaluate DeepSea                                   # evaluate saved actors (CPU)
+python run.py results  DeepSea                                   # rebuild results
+python run.py train    DeepSea -- --size 10 --method PDR         # continue training (GPU)
 ```
 
-**2. Download checkpoints** (~28.75 GB)
-
-```bash
-python scripts/download_checkpoints.py --out checkpoints/local
-```
-
-**3. Run**
-
-```bash
-bash scripts/evaluate.sh  --benchmark DeepSea --archive checkpoints/local   # evaluate saved actors (CPU)
-python scripts/run.py results --benchmark DeepSea --archive checkpoints/local   # rebuild results
-bash scripts/reproduce.sh --benchmark DeepSea --archive checkpoints/local \
-  -- --size 10 --method PDR --updates 8192                                  # continue training (GPU)
-```
-
-`--benchmark` takes `KeyCorridor`, `MiniGridLoCA`, `DeepSea` or `SecureCourier`.
+The benchmark can be `DeepSea`, `KeyCorridor`, `MiniGridLoCA` or `SecureCourier`. Its checkpoints are downloaded from Hugging Face on first use (3.5–10.6 GB each) and kept in `data/`. Add `--quick` to evaluate one seed per setting.
 
 ## Layout
 
 ```
-src/releases/   benchmark environments and methods
-configs/        recorded run configurations
-scripts/        download, evaluation and training entry points
-docs/           report
+run.py      single entry point
+src/        benchmark environments and methods
+configs/    recorded run configurations
+scripts/    lower-level download, restore and evaluation tools
+docs/       report
 ```
