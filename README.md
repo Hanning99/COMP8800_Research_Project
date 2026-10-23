@@ -14,7 +14,7 @@ Hanning Deng · 2026
 
 </div>
 
-> **Start here:** this repository contains the method code, exact experiment recipes, evaluation tools and result summaries. The companion dataset contains the benchmark simulator inputs, recorded outcomes and saved checkpoints. Both are private while the author and supervisor review them.
+> **Start here:** this repository contains the method code, exact experiment recipes, evaluation tools and result summaries. The companion dataset contains the benchmark simulator inputs, recorded outcomes and saved checkpoints. Both repositories are public and ready to browse.
 
 | Need | Go to |
 |---|---|
@@ -75,7 +75,7 @@ See `src/releases/<benchmark>/README.md` for each simulator's additional build i
 
 ### 2 · Download and restore a benchmark
 
-Request access to the private GitHub repository and private Hugging Face dataset first. Then authenticate with Hugging Face and download the pinned dataset revision:
+The dataset is public. Download the pinned dataset revision (Hugging Face authentication is optional for public access):
 
 ```bash
 python scripts/download_checkpoints.py --out checkpoints/local
@@ -132,4 +132,4 @@ docs/                             Method map, experiment index and handover note
 - Simulator inputs, recorded results and saved checkpoints: [Hugging Face dataset](https://huggingface.co/datasets/denghanning/COMP8800_Research_Project)
 - Artefact handover notes: [`docs/submission.md`](docs/submission.md)
 
-Both links currently point to private repositories. Ask the author for access. The scope and validation statements on this page describe the released artefact and should be read alongside the original benchmark notices and report.
+Both links point to public repositories. The scope and validation statements on this page describe the released artefact and should be read alongside the original benchmark notices and report.
