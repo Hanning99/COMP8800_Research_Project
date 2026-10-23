@@ -1,9 +1,0 @@
-{
-  "status": "PASS",
-  "dataset_revision": "a54b7702449746b97071029f0d9b47ca0dce8456",
-  "private": true,
-  "remote_shards_checked": 256,
-  "remote_compressed_bytes": 28753312132,
-  "remote_shard_SHA256_agreement": true,
-  "remote_manifest_present": true
-}
