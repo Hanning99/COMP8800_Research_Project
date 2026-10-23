@@ -4,14 +4,14 @@ Code and configurations for the experiments in *One Solve, Every Step*. Checkpoi
 
 Policy Differential Revaluation (PDR) recomputes the value signal used by the actor from the current policy, a fixed reference policy and a transition graph; the critic is trained as usual.
 
-## Results
+## Benchmarks
 
-| Benchmark | Setting | Methods × seeds | Outcome |
-|:--|:--|:--|:--|
-| KeyCorridor | S3R2, S3R3, S4R3, S5R3 | 8 × 20 | PDR has the highest early mean success on 3 of 4 tasks |
-| MiniGridLoCA | Reward change; AWAC, SAC, QAC starts | 8 × 20 | Task-B discounted return over 4,096 updates |
-| DeepSea | N = 10, 20, 30, 40 | 8 × 20/19/13/13 | Expected return over 256 and 2,048 updates |
-| SecureCourier | Gate skill and route choice | 2 × 50 | Early-learning comparison; non-inferiority at cycle 2,048 not established |
+| Benchmark | Setting |
+|:--|:--|
+| KeyCorridor | S3R2, S3R3, S4R3, S5R3 |
+| MiniGridLoCA | Reward change; AWAC, SAC, QAC starts |
+| DeepSea | N = 10, 20, 30, 40 |
+| SecureCourier | Gate skill and route choice |
 
 ## Reproduction
 
